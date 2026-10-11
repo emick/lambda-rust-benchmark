@@ -1,0 +1,36 @@
+name: Functional tests
+on:
+  push:
+    paths-ignore: ['report/**', 'results/**', 'README.md']
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v6
+      - run: uv run --frozen pytest -q
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --silent --no-audit --no-fund
+      - name: Create local-only asset placeholders for template tests
+        run: |
+          mkdir -p build
+          python3 -c "import zipfile; [zipfile.ZipFile('build/'+v+'.zip','w').writestr('placeholder','template test only') for v in ['python','rust']]"
+      - run: npm run synth -- --quiet
+        env:
+          AWS_REGION: eu-north-1
+      - run: node --test tests/infra.cjs
+  rust:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: backends/rust
+      - run: cargo test --locked --manifest-path backends/rust/Cargo.toml -q

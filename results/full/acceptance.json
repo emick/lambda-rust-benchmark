@@ -1,0 +1,2284 @@
+{
+  "complete": true,
+  "checked_at": "2026-10-11T18:08:03.640769+00:00",
+  "run_id": "1edd7325601e4abe8796b018df7cecce",
+  "checks": [
+    {
+      "requirement": "Run finished successfully",
+      "passed": true,
+      "evidence": "complete"
+    },
+    {
+      "requirement": "Regional EC2 client",
+      "passed": true,
+      "evidence": {
+        "region": "eu-north-1",
+        "instanceType": "t3.small",
+        "availabilityZone": "eu-north-1a"
+      }
+    },
+    {
+      "requirement": "Accepted records match raw telemetry",
+      "passed": true,
+      "evidence": {
+        "accepted": 53161,
+        "raw_log_events": 366842,
+        "invalid_records": []
+      }
+    },
+    {
+      "requirement": "Unique Lambda request identifiers",
+      "passed": true,
+      "evidence": {
+        "records": 77366,
+        "unique": 77366
+      }
+    },
+    {
+      "requirement": "Cell python/128 complete",
+      "passed": true,
+      "evidence": "complete"
+    },
+    {
+      "requirement": "Functional equivalence python/128",
+      "passed": true,
+      "evidence": {
+        "passed": 42,
+        "required": 42,
+        "missing": []
+      }
+    },
+    {
+      "requirement": "Samples python/128/health/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 128,
+        "scenario": "health",
+        "phase": "cold",
+        "samples": 117,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python/128/health/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 128,
+        "scenario": "health",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python/128/validate/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 128,
+        "scenario": "validate",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python/128/validate_invalid/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 128,
+        "scenario": "validate_invalid",
+        "phase": "warm",
+        "samples": 101,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python/128/users/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 128,
+        "scenario": "users",
+        "phase": "cold",
+        "samples": 116,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python/128/users/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 128,
+        "scenario": "users",
+        "phase": "warm",
+        "samples": 1001,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python/128/files/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 128,
+        "scenario": "files",
+        "phase": "cold",
+        "samples": 113,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python/128/files/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 128,
+        "scenario": "files",
+        "phase": "warm",
+        "samples": 1001,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Cell python/256 complete",
+      "passed": true,
+      "evidence": "complete"
+    },
+    {
+      "requirement": "Functional equivalence python/256",
+      "passed": true,
+      "evidence": {
+        "passed": 42,
+        "required": 42,
+        "missing": []
+      }
+    },
+    {
+      "requirement": "Samples python/256/health/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 256,
+        "scenario": "health",
+        "phase": "cold",
+        "samples": 103,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python/256/health/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 256,
+        "scenario": "health",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python/256/validate/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 256,
+        "scenario": "validate",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python/256/validate_invalid/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 256,
+        "scenario": "validate_invalid",
+        "phase": "warm",
+        "samples": 101,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python/256/users/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 256,
+        "scenario": "users",
+        "phase": "cold",
+        "samples": 102,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python/256/users/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 256,
+        "scenario": "users",
+        "phase": "warm",
+        "samples": 1001,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python/256/files/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 256,
+        "scenario": "files",
+        "phase": "cold",
+        "samples": 110,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python/256/files/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 256,
+        "scenario": "files",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Cell python/512 complete",
+      "passed": true,
+      "evidence": "complete"
+    },
+    {
+      "requirement": "Functional equivalence python/512",
+      "passed": true,
+      "evidence": {
+        "passed": 42,
+        "required": 42,
+        "missing": []
+      }
+    },
+    {
+      "requirement": "Samples python/512/health/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 512,
+        "scenario": "health",
+        "phase": "cold",
+        "samples": 109,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python/512/health/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 512,
+        "scenario": "health",
+        "phase": "warm",
+        "samples": 1001,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python/512/validate/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 512,
+        "scenario": "validate",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python/512/validate_invalid/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 512,
+        "scenario": "validate_invalid",
+        "phase": "warm",
+        "samples": 101,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python/512/users/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 512,
+        "scenario": "users",
+        "phase": "cold",
+        "samples": 112,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python/512/users/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 512,
+        "scenario": "users",
+        "phase": "warm",
+        "samples": 1001,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python/512/files/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 512,
+        "scenario": "files",
+        "phase": "cold",
+        "samples": 109,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python/512/files/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 512,
+        "scenario": "files",
+        "phase": "warm",
+        "samples": 1001,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Cell python/1024 complete",
+      "passed": true,
+      "evidence": "complete"
+    },
+    {
+      "requirement": "Functional equivalence python/1024",
+      "passed": true,
+      "evidence": {
+        "passed": 42,
+        "required": 42,
+        "missing": []
+      }
+    },
+    {
+      "requirement": "Samples python/1024/health/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 1024,
+        "scenario": "health",
+        "phase": "cold",
+        "samples": 101,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python/1024/health/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 1024,
+        "scenario": "health",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python/1024/validate/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 1024,
+        "scenario": "validate",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python/1024/validate_invalid/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 1024,
+        "scenario": "validate_invalid",
+        "phase": "warm",
+        "samples": 101,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python/1024/users/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 1024,
+        "scenario": "users",
+        "phase": "cold",
+        "samples": 110,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python/1024/users/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 1024,
+        "scenario": "users",
+        "phase": "warm",
+        "samples": 1001,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python/1024/files/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 1024,
+        "scenario": "files",
+        "phase": "cold",
+        "samples": 110,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python/1024/files/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python",
+        "memory_mb": 1024,
+        "scenario": "files",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Cell python-snapstart/128 complete",
+      "passed": true,
+      "evidence": "complete"
+    },
+    {
+      "requirement": "Functional equivalence python-snapstart/128",
+      "passed": true,
+      "evidence": {
+        "passed": 42,
+        "required": 42,
+        "missing": []
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/128/health/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 128,
+        "scenario": "health",
+        "phase": "cold",
+        "samples": 107,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/128/health/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 128,
+        "scenario": "health",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/128/validate/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 128,
+        "scenario": "validate",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/128/validate_invalid/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 128,
+        "scenario": "validate_invalid",
+        "phase": "warm",
+        "samples": 101,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/128/users/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 128,
+        "scenario": "users",
+        "phase": "cold",
+        "samples": 123,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/128/users/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 128,
+        "scenario": "users",
+        "phase": "warm",
+        "samples": 1001,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/128/files/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 128,
+        "scenario": "files",
+        "phase": "cold",
+        "samples": 110,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/128/files/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 128,
+        "scenario": "files",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Cell python-snapstart/256 complete",
+      "passed": true,
+      "evidence": "complete"
+    },
+    {
+      "requirement": "Functional equivalence python-snapstart/256",
+      "passed": true,
+      "evidence": {
+        "passed": 42,
+        "required": 42,
+        "missing": []
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/256/health/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 256,
+        "scenario": "health",
+        "phase": "cold",
+        "samples": 118,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/256/health/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 256,
+        "scenario": "health",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/256/validate/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 256,
+        "scenario": "validate",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/256/validate_invalid/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 256,
+        "scenario": "validate_invalid",
+        "phase": "warm",
+        "samples": 101,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/256/users/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 256,
+        "scenario": "users",
+        "phase": "cold",
+        "samples": 107,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/256/users/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 256,
+        "scenario": "users",
+        "phase": "warm",
+        "samples": 1001,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/256/files/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 256,
+        "scenario": "files",
+        "phase": "cold",
+        "samples": 113,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/256/files/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 256,
+        "scenario": "files",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Cell python-snapstart/512 complete",
+      "passed": true,
+      "evidence": "complete"
+    },
+    {
+      "requirement": "Functional equivalence python-snapstart/512",
+      "passed": true,
+      "evidence": {
+        "passed": 42,
+        "required": 42,
+        "missing": []
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/512/health/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 512,
+        "scenario": "health",
+        "phase": "cold",
+        "samples": 100,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/512/health/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 512,
+        "scenario": "health",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/512/validate/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 512,
+        "scenario": "validate",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/512/validate_invalid/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 512,
+        "scenario": "validate_invalid",
+        "phase": "warm",
+        "samples": 101,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/512/users/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 512,
+        "scenario": "users",
+        "phase": "cold",
+        "samples": 113,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/512/users/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 512,
+        "scenario": "users",
+        "phase": "warm",
+        "samples": 1001,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/512/files/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 512,
+        "scenario": "files",
+        "phase": "cold",
+        "samples": 111,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/512/files/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 512,
+        "scenario": "files",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Cell python-snapstart/1024 complete",
+      "passed": true,
+      "evidence": "complete"
+    },
+    {
+      "requirement": "Functional equivalence python-snapstart/1024",
+      "passed": true,
+      "evidence": {
+        "passed": 42,
+        "required": 42,
+        "missing": []
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/1024/health/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 1024,
+        "scenario": "health",
+        "phase": "cold",
+        "samples": 108,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/1024/health/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 1024,
+        "scenario": "health",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/1024/validate/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 1024,
+        "scenario": "validate",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/1024/validate_invalid/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 1024,
+        "scenario": "validate_invalid",
+        "phase": "warm",
+        "samples": 101,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/1024/users/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 1024,
+        "scenario": "users",
+        "phase": "cold",
+        "samples": 109,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/1024/users/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 1024,
+        "scenario": "users",
+        "phase": "warm",
+        "samples": 1001,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/1024/files/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 1024,
+        "scenario": "files",
+        "phase": "cold",
+        "samples": 111,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples python-snapstart/1024/files/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "python-snapstart",
+        "memory_mb": 1024,
+        "scenario": "files",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Cell rust/128 complete",
+      "passed": true,
+      "evidence": "complete"
+    },
+    {
+      "requirement": "Functional equivalence rust/128",
+      "passed": true,
+      "evidence": {
+        "passed": 42,
+        "required": 42,
+        "missing": []
+      }
+    },
+    {
+      "requirement": "Samples rust/128/health/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 128,
+        "scenario": "health",
+        "phase": "cold",
+        "samples": 102,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples rust/128/health/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 128,
+        "scenario": "health",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples rust/128/validate/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 128,
+        "scenario": "validate",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples rust/128/validate_invalid/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 128,
+        "scenario": "validate_invalid",
+        "phase": "warm",
+        "samples": 101,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples rust/128/users/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 128,
+        "scenario": "users",
+        "phase": "cold",
+        "samples": 114,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples rust/128/users/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 128,
+        "scenario": "users",
+        "phase": "warm",
+        "samples": 1001,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples rust/128/files/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 128,
+        "scenario": "files",
+        "phase": "cold",
+        "samples": 107,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples rust/128/files/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 128,
+        "scenario": "files",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Cell rust/256 complete",
+      "passed": true,
+      "evidence": "complete"
+    },
+    {
+      "requirement": "Functional equivalence rust/256",
+      "passed": true,
+      "evidence": {
+        "passed": 42,
+        "required": 42,
+        "missing": []
+      }
+    },
+    {
+      "requirement": "Samples rust/256/health/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 256,
+        "scenario": "health",
+        "phase": "cold",
+        "samples": 108,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples rust/256/health/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 256,
+        "scenario": "health",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples rust/256/validate/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 256,
+        "scenario": "validate",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples rust/256/validate_invalid/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 256,
+        "scenario": "validate_invalid",
+        "phase": "warm",
+        "samples": 101,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples rust/256/users/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 256,
+        "scenario": "users",
+        "phase": "cold",
+        "samples": 105,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples rust/256/users/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 256,
+        "scenario": "users",
+        "phase": "warm",
+        "samples": 1001,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples rust/256/files/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 256,
+        "scenario": "files",
+        "phase": "cold",
+        "samples": 110,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples rust/256/files/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 256,
+        "scenario": "files",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Cell rust/512 complete",
+      "passed": true,
+      "evidence": "complete"
+    },
+    {
+      "requirement": "Functional equivalence rust/512",
+      "passed": true,
+      "evidence": {
+        "passed": 42,
+        "required": 42,
+        "missing": []
+      }
+    },
+    {
+      "requirement": "Samples rust/512/health/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 512,
+        "scenario": "health",
+        "phase": "cold",
+        "samples": 112,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples rust/512/health/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 512,
+        "scenario": "health",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples rust/512/validate/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 512,
+        "scenario": "validate",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples rust/512/validate_invalid/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 512,
+        "scenario": "validate_invalid",
+        "phase": "warm",
+        "samples": 101,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples rust/512/users/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 512,
+        "scenario": "users",
+        "phase": "cold",
+        "samples": 105,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples rust/512/users/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 512,
+        "scenario": "users",
+        "phase": "warm",
+        "samples": 1001,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples rust/512/files/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 512,
+        "scenario": "files",
+        "phase": "cold",
+        "samples": 107,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples rust/512/files/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 512,
+        "scenario": "files",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Cell rust/1024 complete",
+      "passed": true,
+      "evidence": "complete"
+    },
+    {
+      "requirement": "Functional equivalence rust/1024",
+      "passed": true,
+      "evidence": {
+        "passed": 42,
+        "required": 42,
+        "missing": []
+      }
+    },
+    {
+      "requirement": "Samples rust/1024/health/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 1024,
+        "scenario": "health",
+        "phase": "cold",
+        "samples": 105,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples rust/1024/health/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 1024,
+        "scenario": "health",
+        "phase": "warm",
+        "samples": 1001,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples rust/1024/validate/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 1024,
+        "scenario": "validate",
+        "phase": "warm",
+        "samples": 1000,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples rust/1024/validate_invalid/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 1024,
+        "scenario": "validate_invalid",
+        "phase": "warm",
+        "samples": 101,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples rust/1024/users/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 1024,
+        "scenario": "users",
+        "phase": "cold",
+        "samples": 105,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples rust/1024/users/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 1024,
+        "scenario": "users",
+        "phase": "warm",
+        "samples": 1001,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Samples rust/1024/files/cold",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 1024,
+        "scenario": "files",
+        "phase": "cold",
+        "samples": 110,
+        "target": 100
+      }
+    },
+    {
+      "requirement": "Samples rust/1024/files/warm",
+      "passed": true,
+      "evidence": {
+        "variant": "rust",
+        "memory_mb": 1024,
+        "scenario": "files",
+        "phase": "warm",
+        "samples": 1001,
+        "target": 1000
+      }
+    },
+    {
+      "requirement": "Runtime configuration python",
+      "passed": true,
+      "evidence": {
+        "Runtime": "python3.13",
+        "Architectures": [
+          "arm64"
+        ],
+        "CodeSha256": "C9woEJ5jCiUHinRz/bTUjKpI428SV45X07iQg84sWrY=",
+        "CodeSize": 19683354,
+        "Timeout": 15,
+        "MemorySize": 512,
+        "SnapStart": {
+          "ApplyOn": "None",
+          "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+          "RuntimeVersionArn": "arn:aws:lambda:eu-north-1::runtime:0aacb188d2c5b3aad9e30760eeca867126ff27643ac0b027e44a1f156beaf2d8"
+        }
+      }
+    },
+    {
+      "requirement": "Artifact identity python",
+      "passed": true,
+      "evidence": {
+        "bytes": 19683354,
+        "sha256": "0bdc28109e630a25078a7473fdb4d48caa48e36f12578e57d3b89083ce2c5ab6"
+      }
+    },
+    {
+      "requirement": "Runtime configuration python-snapstart",
+      "passed": true,
+      "evidence": {
+        "Runtime": "python3.13",
+        "Architectures": [
+          "arm64"
+        ],
+        "CodeSha256": "C9woEJ5jCiUHinRz/bTUjKpI428SV45X07iQg84sWrY=",
+        "CodeSize": 19683354,
+        "Timeout": 15,
+        "MemorySize": 512,
+        "SnapStart": {
+          "ApplyOn": "PublishedVersions",
+          "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+          "RuntimeVersionArn": "arn:aws:lambda:eu-north-1::runtime:0aacb188d2c5b3aad9e30760eeca867126ff27643ac0b027e44a1f156beaf2d8"
+        }
+      }
+    },
+    {
+      "requirement": "Artifact identity python-snapstart",
+      "passed": true,
+      "evidence": {
+        "bytes": 19683354,
+        "sha256": "0bdc28109e630a25078a7473fdb4d48caa48e36f12578e57d3b89083ce2c5ab6"
+      }
+    },
+    {
+      "requirement": "Runtime configuration rust",
+      "passed": true,
+      "evidence": {
+        "Runtime": "provided.al2023",
+        "Architectures": [
+          "arm64"
+        ],
+        "CodeSha256": "44rOCVooS4tJA82ya/5XrR0FyLlFbPXyHL1Fjduw/6E=",
+        "CodeSize": 5833899,
+        "Timeout": 15,
+        "MemorySize": 512,
+        "SnapStart": {
+          "ApplyOn": "None",
+          "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+          "RuntimeVersionArn": "arn:aws:lambda:eu-north-1::runtime:a4529b847b091eae2bf981d572b88e8436e06f2a6fc32b3ecb67fa326518cf95"
+        }
+      }
+    },
+    {
+      "requirement": "Artifact identity rust",
+      "passed": true,
+      "evidence": {
+        "bytes": 5833899,
+        "sha256": "e38ace095a284b8b4903cdb26bfe57ad1d05c8b9456cf5f21cbd458ddbb0ffa1"
+      }
+    },
+    {
+      "requirement": "Identical Python artifacts",
+      "passed": true,
+      "evidence": "CodeSha256 equality"
+    },
+    {
+      "requirement": "Deployed isolation, routing, IAM and Lambda invariants",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "requirement": "Stable artifact throughout run python",
+      "passed": true,
+      "evidence": "C9woEJ5jCiUHinRz/bTUjKpI428SV45X07iQg84sWrY="
+    },
+    {
+      "requirement": "Table predates measurements python",
+      "passed": true,
+      "evidence": "2026-10-11T16:45:47.723000+03:00"
+    },
+    {
+      "requirement": "Bucket predates measurements python",
+      "passed": true,
+      "evidence": "2026-10-11T13:46:02+00:00"
+    },
+    {
+      "requirement": "Stable artifact throughout run python-snapstart",
+      "passed": true,
+      "evidence": "C9woEJ5jCiUHinRz/bTUjKpI428SV45X07iQg84sWrY="
+    },
+    {
+      "requirement": "Table predates measurements python-snapstart",
+      "passed": true,
+      "evidence": "2026-10-11T16:46:55.894000+03:00"
+    },
+    {
+      "requirement": "Bucket predates measurements python-snapstart",
+      "passed": true,
+      "evidence": "2026-10-11T13:47:10+00:00"
+    },
+    {
+      "requirement": "Stable artifact throughout run rust",
+      "passed": true,
+      "evidence": "44rOCVooS4tJA82ya/5XrR0FyLlFbPXyHL1Fjduw/6E="
+    },
+    {
+      "requirement": "Table predates measurements rust",
+      "passed": true,
+      "evidence": "2026-10-11T16:48:56.073000+03:00"
+    },
+    {
+      "requirement": "Bucket predates measurements rust",
+      "passed": true,
+      "evidence": "2026-10-11T13:49:09+00:00"
+    },
+    {
+      "requirement": "Dated regional pricing",
+      "passed": true,
+      "evidence": "2026-10-11T17:53:38.194219+00:00"
+    }
+  ],
+  "failed_requirements": [],
+  "matrix": [
+    {
+      "variant": "python",
+      "memory_mb": 128,
+      "scenario": "health",
+      "phase": "cold",
+      "samples": 117,
+      "target": 100
+    },
+    {
+      "variant": "python",
+      "memory_mb": 128,
+      "scenario": "health",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "python",
+      "memory_mb": 128,
+      "scenario": "validate",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "python",
+      "memory_mb": 128,
+      "scenario": "validate_invalid",
+      "phase": "warm",
+      "samples": 101,
+      "target": 100
+    },
+    {
+      "variant": "python",
+      "memory_mb": 128,
+      "scenario": "users",
+      "phase": "cold",
+      "samples": 116,
+      "target": 100
+    },
+    {
+      "variant": "python",
+      "memory_mb": 128,
+      "scenario": "users",
+      "phase": "warm",
+      "samples": 1001,
+      "target": 1000
+    },
+    {
+      "variant": "python",
+      "memory_mb": 128,
+      "scenario": "files",
+      "phase": "cold",
+      "samples": 113,
+      "target": 100
+    },
+    {
+      "variant": "python",
+      "memory_mb": 128,
+      "scenario": "files",
+      "phase": "warm",
+      "samples": 1001,
+      "target": 1000
+    },
+    {
+      "variant": "python",
+      "memory_mb": 256,
+      "scenario": "health",
+      "phase": "cold",
+      "samples": 103,
+      "target": 100
+    },
+    {
+      "variant": "python",
+      "memory_mb": 256,
+      "scenario": "health",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "python",
+      "memory_mb": 256,
+      "scenario": "validate",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "python",
+      "memory_mb": 256,
+      "scenario": "validate_invalid",
+      "phase": "warm",
+      "samples": 101,
+      "target": 100
+    },
+    {
+      "variant": "python",
+      "memory_mb": 256,
+      "scenario": "users",
+      "phase": "cold",
+      "samples": 102,
+      "target": 100
+    },
+    {
+      "variant": "python",
+      "memory_mb": 256,
+      "scenario": "users",
+      "phase": "warm",
+      "samples": 1001,
+      "target": 1000
+    },
+    {
+      "variant": "python",
+      "memory_mb": 256,
+      "scenario": "files",
+      "phase": "cold",
+      "samples": 110,
+      "target": 100
+    },
+    {
+      "variant": "python",
+      "memory_mb": 256,
+      "scenario": "files",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "python",
+      "memory_mb": 512,
+      "scenario": "health",
+      "phase": "cold",
+      "samples": 109,
+      "target": 100
+    },
+    {
+      "variant": "python",
+      "memory_mb": 512,
+      "scenario": "health",
+      "phase": "warm",
+      "samples": 1001,
+      "target": 1000
+    },
+    {
+      "variant": "python",
+      "memory_mb": 512,
+      "scenario": "validate",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "python",
+      "memory_mb": 512,
+      "scenario": "validate_invalid",
+      "phase": "warm",
+      "samples": 101,
+      "target": 100
+    },
+    {
+      "variant": "python",
+      "memory_mb": 512,
+      "scenario": "users",
+      "phase": "cold",
+      "samples": 112,
+      "target": 100
+    },
+    {
+      "variant": "python",
+      "memory_mb": 512,
+      "scenario": "users",
+      "phase": "warm",
+      "samples": 1001,
+      "target": 1000
+    },
+    {
+      "variant": "python",
+      "memory_mb": 512,
+      "scenario": "files",
+      "phase": "cold",
+      "samples": 109,
+      "target": 100
+    },
+    {
+      "variant": "python",
+      "memory_mb": 512,
+      "scenario": "files",
+      "phase": "warm",
+      "samples": 1001,
+      "target": 1000
+    },
+    {
+      "variant": "python",
+      "memory_mb": 1024,
+      "scenario": "health",
+      "phase": "cold",
+      "samples": 101,
+      "target": 100
+    },
+    {
+      "variant": "python",
+      "memory_mb": 1024,
+      "scenario": "health",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "python",
+      "memory_mb": 1024,
+      "scenario": "validate",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "python",
+      "memory_mb": 1024,
+      "scenario": "validate_invalid",
+      "phase": "warm",
+      "samples": 101,
+      "target": 100
+    },
+    {
+      "variant": "python",
+      "memory_mb": 1024,
+      "scenario": "users",
+      "phase": "cold",
+      "samples": 110,
+      "target": 100
+    },
+    {
+      "variant": "python",
+      "memory_mb": 1024,
+      "scenario": "users",
+      "phase": "warm",
+      "samples": 1001,
+      "target": 1000
+    },
+    {
+      "variant": "python",
+      "memory_mb": 1024,
+      "scenario": "files",
+      "phase": "cold",
+      "samples": 110,
+      "target": 100
+    },
+    {
+      "variant": "python",
+      "memory_mb": 1024,
+      "scenario": "files",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 128,
+      "scenario": "health",
+      "phase": "cold",
+      "samples": 107,
+      "target": 100
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 128,
+      "scenario": "health",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 128,
+      "scenario": "validate",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 128,
+      "scenario": "validate_invalid",
+      "phase": "warm",
+      "samples": 101,
+      "target": 100
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 128,
+      "scenario": "users",
+      "phase": "cold",
+      "samples": 123,
+      "target": 100
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 128,
+      "scenario": "users",
+      "phase": "warm",
+      "samples": 1001,
+      "target": 1000
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 128,
+      "scenario": "files",
+      "phase": "cold",
+      "samples": 110,
+      "target": 100
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 128,
+      "scenario": "files",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 256,
+      "scenario": "health",
+      "phase": "cold",
+      "samples": 118,
+      "target": 100
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 256,
+      "scenario": "health",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 256,
+      "scenario": "validate",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 256,
+      "scenario": "validate_invalid",
+      "phase": "warm",
+      "samples": 101,
+      "target": 100
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 256,
+      "scenario": "users",
+      "phase": "cold",
+      "samples": 107,
+      "target": 100
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 256,
+      "scenario": "users",
+      "phase": "warm",
+      "samples": 1001,
+      "target": 1000
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 256,
+      "scenario": "files",
+      "phase": "cold",
+      "samples": 113,
+      "target": 100
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 256,
+      "scenario": "files",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 512,
+      "scenario": "health",
+      "phase": "cold",
+      "samples": 100,
+      "target": 100
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 512,
+      "scenario": "health",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 512,
+      "scenario": "validate",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 512,
+      "scenario": "validate_invalid",
+      "phase": "warm",
+      "samples": 101,
+      "target": 100
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 512,
+      "scenario": "users",
+      "phase": "cold",
+      "samples": 113,
+      "target": 100
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 512,
+      "scenario": "users",
+      "phase": "warm",
+      "samples": 1001,
+      "target": 1000
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 512,
+      "scenario": "files",
+      "phase": "cold",
+      "samples": 111,
+      "target": 100
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 512,
+      "scenario": "files",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 1024,
+      "scenario": "health",
+      "phase": "cold",
+      "samples": 108,
+      "target": 100
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 1024,
+      "scenario": "health",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 1024,
+      "scenario": "validate",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 1024,
+      "scenario": "validate_invalid",
+      "phase": "warm",
+      "samples": 101,
+      "target": 100
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 1024,
+      "scenario": "users",
+      "phase": "cold",
+      "samples": 109,
+      "target": 100
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 1024,
+      "scenario": "users",
+      "phase": "warm",
+      "samples": 1001,
+      "target": 1000
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 1024,
+      "scenario": "files",
+      "phase": "cold",
+      "samples": 111,
+      "target": 100
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 1024,
+      "scenario": "files",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 128,
+      "scenario": "health",
+      "phase": "cold",
+      "samples": 102,
+      "target": 100
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 128,
+      "scenario": "health",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 128,
+      "scenario": "validate",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 128,
+      "scenario": "validate_invalid",
+      "phase": "warm",
+      "samples": 101,
+      "target": 100
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 128,
+      "scenario": "users",
+      "phase": "cold",
+      "samples": 114,
+      "target": 100
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 128,
+      "scenario": "users",
+      "phase": "warm",
+      "samples": 1001,
+      "target": 1000
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 128,
+      "scenario": "files",
+      "phase": "cold",
+      "samples": 107,
+      "target": 100
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 128,
+      "scenario": "files",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 256,
+      "scenario": "health",
+      "phase": "cold",
+      "samples": 108,
+      "target": 100
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 256,
+      "scenario": "health",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 256,
+      "scenario": "validate",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 256,
+      "scenario": "validate_invalid",
+      "phase": "warm",
+      "samples": 101,
+      "target": 100
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 256,
+      "scenario": "users",
+      "phase": "cold",
+      "samples": 105,
+      "target": 100
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 256,
+      "scenario": "users",
+      "phase": "warm",
+      "samples": 1001,
+      "target": 1000
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 256,
+      "scenario": "files",
+      "phase": "cold",
+      "samples": 110,
+      "target": 100
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 256,
+      "scenario": "files",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 512,
+      "scenario": "health",
+      "phase": "cold",
+      "samples": 112,
+      "target": 100
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 512,
+      "scenario": "health",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 512,
+      "scenario": "validate",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 512,
+      "scenario": "validate_invalid",
+      "phase": "warm",
+      "samples": 101,
+      "target": 100
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 512,
+      "scenario": "users",
+      "phase": "cold",
+      "samples": 105,
+      "target": 100
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 512,
+      "scenario": "users",
+      "phase": "warm",
+      "samples": 1001,
+      "target": 1000
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 512,
+      "scenario": "files",
+      "phase": "cold",
+      "samples": 107,
+      "target": 100
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 512,
+      "scenario": "files",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 1024,
+      "scenario": "health",
+      "phase": "cold",
+      "samples": 105,
+      "target": 100
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 1024,
+      "scenario": "health",
+      "phase": "warm",
+      "samples": 1001,
+      "target": 1000
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 1024,
+      "scenario": "validate",
+      "phase": "warm",
+      "samples": 1000,
+      "target": 1000
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 1024,
+      "scenario": "validate_invalid",
+      "phase": "warm",
+      "samples": 101,
+      "target": 100
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 1024,
+      "scenario": "users",
+      "phase": "cold",
+      "samples": 105,
+      "target": 100
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 1024,
+      "scenario": "users",
+      "phase": "warm",
+      "samples": 1001,
+      "target": 1000
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 1024,
+      "scenario": "files",
+      "phase": "cold",
+      "samples": 110,
+      "target": 100
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 1024,
+      "scenario": "files",
+      "phase": "warm",
+      "samples": 1001,
+      "target": 1000
+    }
+  ],
+  "source_sha256": {
+    "metadata.json": "692352e7b4ada74579b7e05ce5edf698c554207eeae69fc6c06870c8a3328de9",
+    "samples.json": "c58e5e44b528bf9927817a2017777ca83ef14c785259c3fe3689835b2b4c82ca",
+    "cloudwatch.jsonl.gz": "1d4262891721cab61c82573b64d6352492da7584d385d6c9e5fec08197d65111",
+    "initializations.json": "cb0f2c20dbb413f6b285c58bc81ef1bc5bbf47db5051cba1eea09ed18dfb77a4",
+    "pricing.json": "05c5c13d3cb10cf1369bfd63f760ba9a06c05eb82002f99d5b50b575e5f79ea7",
+    "deployment.json": "9f4b212d383b79f981f34524eb023c77125d89a9345f293a473329ebb7d39f9b"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "lambda-rust-benchmark-infra",
+  "private": true,
+  "scripts": {"synth": "cdk synth --quiet", "deploy": "cdk deploy --all --require-approval never --outputs-file infra/outputs.json", "destroy": "cdk destroy --all --force"},
+  "devDependencies": {"aws-cdk": "2.1145.0", "aws-cdk-lib": "2.273.0", "constructs": "10.6.0", "dotenv": "17.2.3"}
+}

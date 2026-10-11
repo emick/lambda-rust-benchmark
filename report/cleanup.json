@@ -1,0 +1,26 @@
+{
+  "region": "eu-north-1",
+  "completed_at": "2026-10-11T18:02:46.005561+00:00",
+  "stacks": {
+    "Benchmark-Runner": "DELETE_COMPLETE",
+    "Benchmark-rust": "DELETE_COMPLETE",
+    "Benchmark-python": "DELETE_COMPLETE",
+    "Benchmark-python-snapstart": "DELETE_COMPLETE"
+  },
+  "functions": {
+    "benchmark-rust-lambda": "deleted",
+    "benchmark-python-lambda": "deleted",
+    "benchmark-python-snapstart-lambda": "deleted"
+  },
+  "buckets": {
+    "benchmark-rust-files8e6940b8-wi3a23hktunx": "deleted",
+    "benchmark-python-files8e6940b8-0adeie3d5zzb": "deleted",
+    "benchmark-python-snapstart-files8e6940b8-ivogs1n3m8gd": "deleted",
+    "benchmark-runner-exports25637afb-h7bz1jxuighb": "deleted"
+  },
+  "runner": {
+    "id": "i-03ac739639a32f426",
+    "state": "terminated"
+  },
+  "verified": true
+}

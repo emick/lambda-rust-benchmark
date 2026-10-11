@@ -1,0 +1,265 @@
+{
+  "region": "eu-north-1",
+  "date": "2026-10-11T17:53:38.194219+00:00",
+  "currency": "USD",
+  "free_tier": false,
+  "discounts": false,
+  "rates": {
+    "lambda_request": {
+      "sku": "R3N9VPKCMSVAJDEH",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "EU (Stockholm)",
+        "locationType": "AWS Region",
+        "group": "AWS-Lambda-Requests-ARM",
+        "groupDescription": "Invocation call for a Lambda function for ARM",
+        "usagetype": "EUN1-Request-ARM",
+        "operation": "",
+        "regionCode": "eu-north-1",
+        "servicename": "AWS Lambda"
+      },
+      "dimension": {
+        "rateCode": "R3N9VPKCMSVAJDEH.JRTCKXETXF.6YS6EN2CT7",
+        "description": "USD 2.0E-7 per Requests (ARM) for Request in EU (Stockholm)",
+        "beginRange": "0",
+        "endRange": "Inf",
+        "unit": "Requests",
+        "pricePerUnit": {
+          "USD": "0.0000002000"
+        },
+        "appliesTo": []
+      },
+      "usd": 2e-07
+    },
+    "lambda_gb_s": {
+      "sku": "VRFJ836X75T58FNT",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "EU (Stockholm)",
+        "locationType": "AWS Region",
+        "group": "AWS-Lambda-Duration-ARM",
+        "groupDescription": "Invocation duration weighted by memory assigned to function, measured in GB-s for ARM",
+        "usagetype": "EUN1-Lambda-GB-Second-ARM",
+        "operation": "",
+        "regionCode": "eu-north-1",
+        "servicename": "AWS Lambda"
+      },
+      "dimension": {
+        "rateCode": "VRFJ836X75T58FNT.JRTCKXETXF.6NBUNBXSC3",
+        "description": "USD 0.0000133334 per Second for Lambda-GB-Second-ARM in EU (Stockholm)-Tier-1",
+        "beginRange": "0",
+        "endRange": "7500000000",
+        "unit": "Lambda-GB-Second",
+        "pricePerUnit": {
+          "USD": "0.0000133334"
+        },
+        "appliesTo": []
+      },
+      "usd": 1.33334e-05
+    },
+    "snap_cache_gb_s": {
+      "sku": "C2XG8W2EWBKUZ9WN",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "EU (Stockholm)",
+        "locationType": "AWS Region",
+        "group": "AWS-Lambda-SnapStart-Cache",
+        "groupDescription": "Duration a snapshot is cached for, weighted by memory and disk assigned to function, measured in GB-S",
+        "usagetype": "EUN1-Lambda-SnapStart-Cached-GB-S",
+        "operation": "",
+        "regionCode": "eu-north-1",
+        "servicename": "AWS Lambda"
+      },
+      "dimension": {
+        "rateCode": "C2XG8W2EWBKUZ9WN.JRTCKXETXF.6YS6EN2CT7",
+        "description": "USD 0.0000015046 per GB-Second for Lambda-SnapStart-Cached-GB-S usage in EU (Stockholm)",
+        "beginRange": "0",
+        "endRange": "Inf",
+        "unit": "GB-Seconds",
+        "pricePerUnit": {
+          "USD": "0.0000015046"
+        },
+        "appliesTo": []
+      },
+      "usd": 1.5046e-06
+    },
+    "snap_restore_gb": {
+      "sku": "7CVJUJSMNP8AY8HT",
+      "attributes": {
+        "servicecode": "AWSLambda",
+        "location": "EU (Stockholm)",
+        "locationType": "AWS Region",
+        "group": "AWS-Lambda-SnapStart-Restore",
+        "groupDescription": "Snapshot GB restored, measured in GB of memory and disk assigned to function",
+        "usagetype": "EUN1-Lambda-SnapStart-Restored-GB",
+        "operation": "",
+        "regionCode": "eu-north-1",
+        "servicename": "AWS Lambda"
+      },
+      "dimension": {
+        "rateCode": "7CVJUJSMNP8AY8HT.JRTCKXETXF.6YS6EN2CT7",
+        "description": "USD 0.0001397998 per GB for Lambda-SnapStart-Restored-GB usage in EU (Stockholm)",
+        "beginRange": "0",
+        "endRange": "Inf",
+        "unit": "GB",
+        "pricePerUnit": {
+          "USD": "0.0001397998"
+        },
+        "appliesTo": []
+      },
+      "usd": 0.0001397998
+    },
+    "http_request": {
+      "sku": "863ZPQVR2S7G7A5N",
+      "attributes": {
+        "servicecode": "AmazonApiGateway",
+        "description": "HTTP API Requests",
+        "location": "EU (Stockholm)",
+        "locationType": "AWS Region",
+        "usagetype": "EUN1-ApiGatewayHttpRequest",
+        "operation": "ApiGatewayHttpApi",
+        "regionCode": "eu-north-1",
+        "servicename": "Amazon API Gateway"
+      },
+      "dimension": {
+        "rateCode": "863ZPQVR2S7G7A5N.JRTCKXETXF.9NXBCPDZYR",
+        "description": "$1.06/million requests - API Gateway HTTP API (first 300 million)",
+        "beginRange": "0",
+        "endRange": "300000000",
+        "unit": "Requests",
+        "pricePerUnit": {
+          "USD": "0.0000010600"
+        },
+        "appliesTo": []
+      },
+      "usd": 1.06e-06
+    },
+    "ddb_write": {
+      "sku": "7VPREYYAVVNTF6HA",
+      "attributes": {
+        "servicecode": "AmazonDynamoDB",
+        "location": "EU (Stockholm)",
+        "locationType": "AWS Region",
+        "group": "DDB-WriteUnits",
+        "groupDescription": "DynamoDB PayPerRequest Write Request Units",
+        "usagetype": "EUN1-WriteRequestUnits",
+        "operation": "PayPerRequestThroughput",
+        "regionCode": "eu-north-1",
+        "servicename": "Amazon DynamoDB"
+      },
+      "dimension": {
+        "rateCode": "7VPREYYAVVNTF6HA.JRTCKXETXF.6YS6EN2CT7",
+        "description": "$0.67 per million write request units (EU (Stockholm))",
+        "beginRange": "0",
+        "endRange": "Inf",
+        "unit": "WriteRequestUnits",
+        "pricePerUnit": {
+          "USD": "0.0000006700"
+        },
+        "appliesTo": []
+      },
+      "usd": 6.7e-07
+    },
+    "ddb_storage_gb_month": {
+      "sku": "7CWH57BC2PWWUQUW",
+      "attributes": {
+        "servicecode": "AmazonDynamoDB",
+        "location": "EU (Stockholm)",
+        "locationType": "AWS Region",
+        "volumeType": "Amazon DynamoDB - Indexed DataStore",
+        "usagetype": "EUN1-TimedStorage-ByteHrs",
+        "operation": "",
+        "regionCode": "eu-north-1",
+        "servicename": "Amazon DynamoDB"
+      },
+      "dimension": {
+        "rateCode": "7CWH57BC2PWWUQUW.JRTCKXETXF.VYAP54KATQ",
+        "description": "USD 0.269 per GB-Mo for TimedStorage-ByteHrs in EU (Stockholm)",
+        "beginRange": "25",
+        "endRange": "Inf",
+        "unit": "GB-Mo",
+        "pricePerUnit": {
+          "USD": "0.2690000000"
+        },
+        "appliesTo": []
+      },
+      "usd": 0.269
+    },
+    "s3_put": {
+      "sku": "GRMX7KKGXZWXWYA7",
+      "attributes": {
+        "servicecode": "AmazonS3",
+        "location": "EU (Stockholm)",
+        "locationType": "AWS Region",
+        "group": "S3-API-Tier1",
+        "groupDescription": "PUT/COPY/POST or LIST requests",
+        "usagetype": "EUN1-Requests-Tier1",
+        "operation": "",
+        "regionCode": "eu-north-1",
+        "servicename": "Amazon Simple Storage Service"
+      },
+      "dimension": {
+        "rateCode": "GRMX7KKGXZWXWYA7.JRTCKXETXF.6YS6EN2CT7",
+        "description": "$0.005 per 1,000 PUT, COPY, POST, or LIST requests",
+        "beginRange": "0",
+        "endRange": "Inf",
+        "unit": "Requests",
+        "pricePerUnit": {
+          "USD": "0.0000050000"
+        },
+        "appliesTo": []
+      },
+      "usd": 5e-06
+    },
+    "s3_storage_gb_month": {
+      "sku": "W3FCBWN4J47P9GU4",
+      "attributes": {
+        "servicecode": "AmazonS3",
+        "location": "EU (Stockholm)",
+        "locationType": "AWS Region",
+        "availability": "99.99%",
+        "storageClass": "General Purpose",
+        "volumeType": "Standard",
+        "usagetype": "EUN1-TimedStorage-ByteHrs",
+        "operation": "",
+        "durability": "99.999999999%",
+        "regionCode": "eu-north-1",
+        "servicename": "Amazon Simple Storage Service"
+      },
+      "dimension": {
+        "rateCode": "W3FCBWN4J47P9GU4.JRTCKXETXF.PGHJ3S3EYE",
+        "description": "$0.023 per GB - first 50 TB / month of storage used",
+        "beginRange": "0",
+        "endRange": "51200",
+        "unit": "GB-Mo",
+        "pricePerUnit": {
+          "USD": "0.0230000000"
+        },
+        "appliesTo": []
+      },
+      "usd": 0.023
+    }
+  },
+  "sources": [
+    {
+      "service": "AWSLambda",
+      "url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AWSLambda/current/eu-north-1/index.json",
+      "publication_date": "2026-10-09T22:31:22Z"
+    },
+    {
+      "service": "AmazonApiGateway",
+      "url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonApiGateway/current/eu-north-1/index.json",
+      "publication_date": "2026-10-02T23:15:01Z"
+    },
+    {
+      "service": "AmazonDynamoDB",
+      "url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonDynamoDB/current/eu-north-1/index.json",
+      "publication_date": "2026-09-11T12:44:22Z"
+    },
+    {
+      "service": "AmazonS3",
+      "url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/eu-north-1/index.json",
+      "publication_date": "2026-09-28T23:04:16Z"
+    }
+  ]
+}

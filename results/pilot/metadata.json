@@ -1,0 +1,2185 @@
+{
+  "schema_version": 1,
+  "run_id": "a373b0a697004161b35e729378adcdca",
+  "region": "eu-north-1",
+  "started_at": "2026-10-11T14:09:55.704059+00:00",
+  "settings": {
+    "cold_target": 3,
+    "warm_target": 5,
+    "invalid_target": 3,
+    "memories": [
+      512
+    ],
+    "variants": [
+      "python",
+      "python-snapstart",
+      "rust"
+    ],
+    "bursts": [
+      1,
+      25,
+      100
+    ],
+    "max_batches": 100,
+    "http": {
+      "http2": false,
+      "timeout_s": 30,
+      "retries": 0,
+      "max_connections": 100
+    }
+  },
+  "build": {
+    "architecture": "arm64",
+    "python_runtime": "python3.13",
+    "rust_runtime": "provided.al2023",
+    "rustc": "rustc 1.99.0 (b940084d7 2026-09-28)",
+    "artifacts": {
+      "python": {
+        "bytes": 19683354,
+        "sha256": "0bdc28109e630a25078a7473fdb4d48caa48e36f12578e57d3b89083ce2c5ab6"
+      },
+      "rust": {
+        "bytes": 5833899,
+        "sha256": "e38ace095a284b8b4903cdb26bfe57ad1d05c8b9456cf5f21cbd458ddbb0ffa1"
+      }
+    },
+    "uv.lock": "4c9d305c7dd19738346ee932735f2f9f0b3815900f059a0d8a9846813f161940",
+    "backends/python/uv.lock": "29a71290f658f36a35cf1825d3083391ce18f9d69fa0d5ea726954439f62e1ba",
+    "backends/rust/Cargo.lock": "153a1ff281f51a98f1524e513c73e4ce798a0a1e935eb1ad065de90b10fba98d",
+    "package-lock.json": "b501e3fae6acdee985ce687897e4768ecc9ad460d6a4052bbcac36e6c3f02c95",
+    "dependencies": {
+      "python": [
+        {
+          "name": "annotated-doc",
+          "version": "0.0.5"
+        },
+        {
+          "name": "annotated-types",
+          "version": "0.8.0"
+        },
+        {
+          "name": "anyio",
+          "version": "4.15.1"
+        },
+        {
+          "name": "benchmark-python-backend",
+          "version": "0.1.0"
+        },
+        {
+          "name": "boto3",
+          "version": "1.43.111"
+        },
+        {
+          "name": "botocore",
+          "version": "1.43.111"
+        },
+        {
+          "name": "fastapi",
+          "version": "0.143.0"
+        },
+        {
+          "name": "idna",
+          "version": "3.20"
+        },
+        {
+          "name": "jmespath",
+          "version": "1.1.0"
+        },
+        {
+          "name": "mangum",
+          "version": "0.22.0"
+        },
+        {
+          "name": "opentelemetry-api",
+          "version": "1.45.1"
+        },
+        {
+          "name": "pydantic",
+          "version": "2.14.0"
+        },
+        {
+          "name": "pydantic-core",
+          "version": "2.50.0"
+        },
+        {
+          "name": "python-dateutil",
+          "version": "2.9.0.post0"
+        },
+        {
+          "name": "s3transfer",
+          "version": "0.19.2"
+        },
+        {
+          "name": "six",
+          "version": "1.17.0"
+        },
+        {
+          "name": "starlette",
+          "version": "1.7.0"
+        },
+        {
+          "name": "typing-extensions",
+          "version": "4.16.0"
+        },
+        {
+          "name": "typing-inspection",
+          "version": "0.4.4"
+        },
+        {
+          "name": "urllib3",
+          "version": "2.8.0"
+        }
+      ],
+      "rust": [
+        {
+          "name": "aho-corasick",
+          "version": "1.1.5"
+        },
+        {
+          "name": "arc-swap",
+          "version": "1.9.2"
+        },
+        {
+          "name": "async-stream",
+          "version": "0.3.6"
+        },
+        {
+          "name": "async-stream-impl",
+          "version": "0.3.6"
+        },
+        {
+          "name": "atomic-waker",
+          "version": "1.1.2"
+        },
+        {
+          "name": "autocfg",
+          "version": "1.5.1"
+        },
+        {
+          "name": "aws-config",
+          "version": "1.12.0"
+        },
+        {
+          "name": "aws-credential-types",
+          "version": "1.3.0"
+        },
+        {
+          "name": "aws-lc-rs",
+          "version": "1.18.1"
+        },
+        {
+          "name": "aws-lc-sys",
+          "version": "0.45.0"
+        },
+        {
+          "name": "aws-runtime",
+          "version": "1.10.0"
+        },
+        {
+          "name": "aws-sdk-dynamodb",
+          "version": "1.130.0"
+        },
+        {
+          "name": "aws-sdk-s3",
+          "version": "1.152.0"
+        },
+        {
+          "name": "aws-sdk-sso",
+          "version": "1.114.0"
+        },
+        {
+          "name": "aws-sdk-ssooidc",
+          "version": "1.116.0"
+        },
+        {
+          "name": "aws-sdk-sts",
+          "version": "1.119.0"
+        },
+        {
+          "name": "aws-sigv4",
+          "version": "1.6.0"
+        },
+        {
+          "name": "aws-smithy-async",
+          "version": "1.3.0"
+        },
+        {
+          "name": "aws-smithy-checksums",
+          "version": "0.65.0"
+        },
+        {
+          "name": "aws-smithy-eventstream",
+          "version": "0.61.4"
+        },
+        {
+          "name": "aws-smithy-http",
+          "version": "0.64.1"
+        },
+        {
+          "name": "aws-smithy-http-client",
+          "version": "1.5.0"
+        },
+        {
+          "name": "aws-smithy-json",
+          "version": "0.63.1"
+        },
+        {
+          "name": "aws-smithy-observability",
+          "version": "0.3.0"
+        },
+        {
+          "name": "aws-smithy-query",
+          "version": "0.62.1"
+        },
+        {
+          "name": "aws-smithy-runtime",
+          "version": "1.16.0"
+        },
+        {
+          "name": "aws-smithy-runtime-api",
+          "version": "1.19.0"
+        },
+        {
+          "name": "aws-smithy-runtime-api-macros",
+          "version": "1.1.0"
+        },
+        {
+          "name": "aws-smithy-schema",
+          "version": "0.2.1"
+        },
+        {
+          "name": "aws-smithy-types",
+          "version": "1.8.1"
+        },
+        {
+          "name": "aws-smithy-xml",
+          "version": "0.62.1"
+        },
+        {
+          "name": "aws-types",
+          "version": "1.6.0"
+        },
+        {
+          "name": "aws_lambda_events",
+          "version": "1.2.0"
+        },
+        {
+          "name": "axum",
+          "version": "0.8.9"
+        },
+        {
+          "name": "axum-core",
+          "version": "0.5.6"
+        },
+        {
+          "name": "base16ct",
+          "version": "0.2.0"
+        },
+        {
+          "name": "base64",
+          "version": "0.22.1"
+        },
+        {
+          "name": "base64",
+          "version": "0.23.1"
+        },
+        {
+          "name": "base64-simd",
+          "version": "0.8.0"
+        },
+        {
+          "name": "base64ct",
+          "version": "1.8.3"
+        },
+        {
+          "name": "benchmark-rust",
+          "version": "0.1.0"
+        },
+        {
+          "name": "bitflags",
+          "version": "2.13.2"
+        },
+        {
+          "name": "block-buffer",
+          "version": "0.10.4"
+        },
+        {
+          "name": "block-buffer",
+          "version": "0.12.1"
+        },
+        {
+          "name": "bumpalo",
+          "version": "3.20.3"
+        },
+        {
+          "name": "bytes",
+          "version": "1.12.1"
+        },
+        {
+          "name": "bytes-utils",
+          "version": "0.1.4"
+        },
+        {
+          "name": "castaway",
+          "version": "0.2.4"
+        },
+        {
+          "name": "cc",
+          "version": "1.7.0"
+        },
+        {
+          "name": "cfg-if",
+          "version": "1.0.5"
+        },
+        {
+          "name": "cmake",
+          "version": "0.1.58"
+        },
+        {
+          "name": "cmov",
+          "version": "0.5.4"
+        },
+        {
+          "name": "compact_str",
+          "version": "0.9.1"
+        },
+        {
+          "name": "const-oid",
+          "version": "0.9.6"
+        },
+        {
+          "name": "const-oid",
+          "version": "0.10.2"
+        },
+        {
+          "name": "core-foundation",
+          "version": "0.10.1"
+        },
+        {
+          "name": "core-foundation-sys",
+          "version": "0.8.7"
+        },
+        {
+          "name": "core_detect",
+          "version": "1.0.0"
+        },
+        {
+          "name": "cpufeatures",
+          "version": "0.2.17"
+        },
+        {
+          "name": "cpufeatures",
+          "version": "0.3.1"
+        },
+        {
+          "name": "crc-fast",
+          "version": "1.10.0"
+        },
+        {
+          "name": "crc32fast",
+          "version": "1.5.2"
+        },
+        {
+          "name": "crypto-bigint",
+          "version": "0.5.5"
+        },
+        {
+          "name": "crypto-common",
+          "version": "0.1.6"
+        },
+        {
+          "name": "crypto-common",
+          "version": "0.2.2"
+        },
+        {
+          "name": "ctutils",
+          "version": "0.4.3"
+        },
+        {
+          "name": "der",
+          "version": "0.7.10"
+        },
+        {
+          "name": "deranged",
+          "version": "0.5.8"
+        },
+        {
+          "name": "digest",
+          "version": "0.10.7"
+        },
+        {
+          "name": "digest",
+          "version": "0.11.3"
+        },
+        {
+          "name": "displaydoc",
+          "version": "0.2.7"
+        },
+        {
+          "name": "dunce",
+          "version": "1.0.5"
+        },
+        {
+          "name": "ecdsa",
+          "version": "0.16.9"
+        },
+        {
+          "name": "either",
+          "version": "1.19.0"
+        },
+        {
+          "name": "elliptic-curve",
+          "version": "0.13.8"
+        },
+        {
+          "name": "encoding_rs",
+          "version": "0.8.42"
+        },
+        {
+          "name": "equivalent",
+          "version": "1.0.2"
+        },
+        {
+          "name": "errno",
+          "version": "0.3.14"
+        },
+        {
+          "name": "fastrand",
+          "version": "2.5.0"
+        },
+        {
+          "name": "ff",
+          "version": "0.13.1"
+        },
+        {
+          "name": "find-msvc-tools",
+          "version": "0.1.14"
+        },
+        {
+          "name": "fnv",
+          "version": "1.0.7"
+        },
+        {
+          "name": "foldhash",
+          "version": "0.2.0"
+        },
+        {
+          "name": "form_urlencoded",
+          "version": "1.2.2"
+        },
+        {
+          "name": "fs_extra",
+          "version": "1.3.0"
+        },
+        {
+          "name": "futures",
+          "version": "0.3.34"
+        },
+        {
+          "name": "futures-channel",
+          "version": "0.3.34"
+        },
+        {
+          "name": "futures-core",
+          "version": "0.3.34"
+        },
+        {
+          "name": "futures-executor",
+          "version": "0.3.34"
+        },
+        {
+          "name": "futures-io",
+          "version": "0.3.34"
+        },
+        {
+          "name": "futures-macro",
+          "version": "0.3.34"
+        },
+        {
+          "name": "futures-sink",
+          "version": "0.3.34"
+        },
+        {
+          "name": "futures-task",
+          "version": "0.3.34"
+        },
+        {
+          "name": "futures-util",
+          "version": "0.3.34"
+        },
+        {
+          "name": "garde",
+          "version": "0.23.0"
+        },
+        {
+          "name": "garde_derive",
+          "version": "0.23.0"
+        },
+        {
+          "name": "generic-array",
+          "version": "0.14.9"
+        },
+        {
+          "name": "getrandom",
+          "version": "0.2.17"
+        },
+        {
+          "name": "getrandom",
+          "version": "0.4.3"
+        },
+        {
+          "name": "group",
+          "version": "0.13.0"
+        },
+        {
+          "name": "h2",
+          "version": "0.3.27"
+        },
+        {
+          "name": "h2",
+          "version": "0.4.20"
+        },
+        {
+          "name": "hashbrown",
+          "version": "0.17.1"
+        },
+        {
+          "name": "hex",
+          "version": "0.4.3"
+        },
+        {
+          "name": "hmac",
+          "version": "0.12.1"
+        },
+        {
+          "name": "hmac",
+          "version": "0.13.0"
+        },
+        {
+          "name": "http",
+          "version": "0.2.12"
+        },
+        {
+          "name": "http",
+          "version": "1.5.0"
+        },
+        {
+          "name": "http-body",
+          "version": "0.4.6"
+        },
+        {
+          "name": "http-body",
+          "version": "1.1.0"
+        },
+        {
+          "name": "http-body-util",
+          "version": "0.1.5"
+        },
+        {
+          "name": "http-serde",
+          "version": "2.1.1"
+        },
+        {
+          "name": "httparse",
+          "version": "1.10.1"
+        },
+        {
+          "name": "httpdate",
+          "version": "1.0.3"
+        },
+        {
+          "name": "hybrid-array",
+          "version": "0.4.15"
+        },
+        {
+          "name": "hyper",
+          "version": "0.14.32"
+        },
+        {
+          "name": "hyper",
+          "version": "1.12.0"
+        },
+        {
+          "name": "hyper-rustls",
+          "version": "0.24.2"
+        },
+        {
+          "name": "hyper-rustls",
+          "version": "0.27.10"
+        },
+        {
+          "name": "hyper-util",
+          "version": "0.1.21"
+        },
+        {
+          "name": "icu_collections",
+          "version": "2.3.0"
+        },
+        {
+          "name": "icu_locale_core",
+          "version": "2.3.0"
+        },
+        {
+          "name": "icu_normalizer",
+          "version": "2.3.0"
+        },
+        {
+          "name": "icu_normalizer_data",
+          "version": "2.3.0"
+        },
+        {
+          "name": "icu_properties",
+          "version": "2.3.0"
+        },
+        {
+          "name": "icu_properties_data",
+          "version": "2.3.0"
+        },
+        {
+          "name": "icu_provider",
+          "version": "2.3.1"
+        },
+        {
+          "name": "idna",
+          "version": "1.1.0"
+        },
+        {
+          "name": "idna_adapter",
+          "version": "1.2.2"
+        },
+        {
+          "name": "indexmap",
+          "version": "2.14.2"
+        },
+        {
+          "name": "ipnet",
+          "version": "2.12.2"
+        },
+        {
+          "name": "itoa",
+          "version": "1.0.18"
+        },
+        {
+          "name": "jobserver",
+          "version": "0.1.35"
+        },
+        {
+          "name": "js-sys",
+          "version": "0.3.106"
+        },
+        {
+          "name": "lambda_http",
+          "version": "1.3.1"
+        },
+        {
+          "name": "lambda_runtime",
+          "version": "1.4.0"
+        },
+        {
+          "name": "lambda_runtime_api_client",
+          "version": "1.1.1"
+        },
+        {
+          "name": "lazy_static",
+          "version": "1.5.1"
+        },
+        {
+          "name": "libc",
+          "version": "0.2.190"
+        },
+        {
+          "name": "litemap",
+          "version": "0.8.3"
+        },
+        {
+          "name": "log",
+          "version": "0.4.34"
+        },
+        {
+          "name": "lru",
+          "version": "0.18.5"
+        },
+        {
+          "name": "matchers",
+          "version": "0.2.0"
+        },
+        {
+          "name": "matchit",
+          "version": "0.8.4"
+        },
+        {
+          "name": "md-5",
+          "version": "0.11.0"
+        },
+        {
+          "name": "memchr",
+          "version": "2.8.3"
+        },
+        {
+          "name": "mime",
+          "version": "0.3.17"
+        },
+        {
+          "name": "mio",
+          "version": "1.2.4"
+        },
+        {
+          "name": "multiversion_no_op",
+          "version": "1.0.0"
+        },
+        {
+          "name": "nu-ansi-term",
+          "version": "0.50.3"
+        },
+        {
+          "name": "num-conv",
+          "version": "0.2.2"
+        },
+        {
+          "name": "num-integer",
+          "version": "0.1.47"
+        },
+        {
+          "name": "num-traits",
+          "version": "0.2.19"
+        },
+        {
+          "name": "once_cell",
+          "version": "1.21.4"
+        },
+        {
+          "name": "openssl-probe",
+          "version": "0.2.1"
+        },
+        {
+          "name": "outref",
+          "version": "0.5.2"
+        },
+        {
+          "name": "p256",
+          "version": "0.13.2"
+        },
+        {
+          "name": "pem-rfc7468",
+          "version": "0.7.0"
+        },
+        {
+          "name": "percent-encoding",
+          "version": "2.3.2"
+        },
+        {
+          "name": "pin-project",
+          "version": "1.1.13"
+        },
+        {
+          "name": "pin-project-internal",
+          "version": "1.1.13"
+        },
+        {
+          "name": "pin-project-lite",
+          "version": "0.2.17"
+        },
+        {
+          "name": "pin-utils",
+          "version": "0.1.1"
+        },
+        {
+          "name": "pkcs8",
+          "version": "0.10.2"
+        },
+        {
+          "name": "pkg-config",
+          "version": "0.3.34"
+        },
+        {
+          "name": "potential_utf",
+          "version": "0.1.6"
+        },
+        {
+          "name": "powerfmt",
+          "version": "0.2.1"
+        },
+        {
+          "name": "primeorder",
+          "version": "0.13.6"
+        },
+        {
+          "name": "proc-macro2",
+          "version": "1.0.107"
+        },
+        {
+          "name": "query_map",
+          "version": "0.7.0"
+        },
+        {
+          "name": "quote",
+          "version": "1.0.47"
+        },
+        {
+          "name": "r-efi",
+          "version": "6.0.0"
+        },
+        {
+          "name": "rand_core",
+          "version": "0.6.4"
+        },
+        {
+          "name": "regex",
+          "version": "1.13.1"
+        },
+        {
+          "name": "regex-automata",
+          "version": "0.4.18"
+        },
+        {
+          "name": "regex-lite",
+          "version": "0.1.9"
+        },
+        {
+          "name": "regex-syntax",
+          "version": "0.8.11"
+        },
+        {
+          "name": "rfc6979",
+          "version": "0.4.0"
+        },
+        {
+          "name": "ring",
+          "version": "0.17.14"
+        },
+        {
+          "name": "rustc_version",
+          "version": "0.4.1"
+        },
+        {
+          "name": "rustls",
+          "version": "0.21.12"
+        },
+        {
+          "name": "rustls",
+          "version": "0.23.45"
+        },
+        {
+          "name": "rustls-native-certs",
+          "version": "0.8.4"
+        },
+        {
+          "name": "rustls-pki-types",
+          "version": "1.15.1"
+        },
+        {
+          "name": "rustls-webpki",
+          "version": "0.101.7"
+        },
+        {
+          "name": "rustls-webpki",
+          "version": "0.103.15"
+        },
+        {
+          "name": "rustversion",
+          "version": "1.0.23"
+        },
+        {
+          "name": "ryu",
+          "version": "1.0.23"
+        },
+        {
+          "name": "schannel",
+          "version": "0.1.29"
+        },
+        {
+          "name": "scopeguard",
+          "version": "1.2.0"
+        },
+        {
+          "name": "sct",
+          "version": "0.7.1"
+        },
+        {
+          "name": "sec1",
+          "version": "0.7.3"
+        },
+        {
+          "name": "security-framework",
+          "version": "3.7.0"
+        },
+        {
+          "name": "security-framework-sys",
+          "version": "2.17.0"
+        },
+        {
+          "name": "semver",
+          "version": "1.0.28"
+        },
+        {
+          "name": "serde",
+          "version": "1.0.229"
+        },
+        {
+          "name": "serde_core",
+          "version": "1.0.229"
+        },
+        {
+          "name": "serde_derive",
+          "version": "1.0.229"
+        },
+        {
+          "name": "serde_json",
+          "version": "1.0.152"
+        },
+        {
+          "name": "serde_path_to_error",
+          "version": "0.1.20"
+        },
+        {
+          "name": "serde_urlencoded",
+          "version": "0.7.1"
+        },
+        {
+          "name": "sha1",
+          "version": "0.10.7"
+        },
+        {
+          "name": "sha1",
+          "version": "0.11.0"
+        },
+        {
+          "name": "sha2",
+          "version": "0.10.9"
+        },
+        {
+          "name": "sha2",
+          "version": "0.11.0"
+        },
+        {
+          "name": "sharded-slab",
+          "version": "0.1.7"
+        },
+        {
+          "name": "shlex",
+          "version": "2.0.1"
+        },
+        {
+          "name": "signal-hook-registry",
+          "version": "1.4.8"
+        },
+        {
+          "name": "signature",
+          "version": "2.2.0"
+        },
+        {
+          "name": "simdutf8",
+          "version": "0.1.5"
+        },
+        {
+          "name": "slab",
+          "version": "0.4.12"
+        },
+        {
+          "name": "smallvec",
+          "version": "1.16.3"
+        },
+        {
+          "name": "socket2",
+          "version": "0.5.10"
+        },
+        {
+          "name": "socket2",
+          "version": "0.6.5"
+        },
+        {
+          "name": "spin",
+          "version": "0.10.1"
+        },
+        {
+          "name": "spki",
+          "version": "0.7.3"
+        },
+        {
+          "name": "stable_deref_trait",
+          "version": "1.2.1"
+        },
+        {
+          "name": "static_assertions",
+          "version": "1.1.0"
+        },
+        {
+          "name": "subtle",
+          "version": "2.6.1"
+        },
+        {
+          "name": "syn",
+          "version": "2.0.119"
+        },
+        {
+          "name": "syn",
+          "version": "3.0.7"
+        },
+        {
+          "name": "sync_wrapper",
+          "version": "1.0.2"
+        },
+        {
+          "name": "synstructure",
+          "version": "0.14.0"
+        },
+        {
+          "name": "thread_local",
+          "version": "1.1.10"
+        },
+        {
+          "name": "time",
+          "version": "0.3.55"
+        },
+        {
+          "name": "time-core",
+          "version": "0.1.9"
+        },
+        {
+          "name": "time-macros",
+          "version": "0.2.32"
+        },
+        {
+          "name": "tinystr",
+          "version": "0.8.4"
+        },
+        {
+          "name": "tokio",
+          "version": "1.53.2"
+        },
+        {
+          "name": "tokio-macros",
+          "version": "2.7.2"
+        },
+        {
+          "name": "tokio-rustls",
+          "version": "0.24.1"
+        },
+        {
+          "name": "tokio-rustls",
+          "version": "0.26.6"
+        },
+        {
+          "name": "tokio-stream",
+          "version": "0.1.19"
+        },
+        {
+          "name": "tokio-util",
+          "version": "0.7.20"
+        },
+        {
+          "name": "tower",
+          "version": "0.5.3"
+        },
+        {
+          "name": "tower-layer",
+          "version": "0.3.3"
+        },
+        {
+          "name": "tower-service",
+          "version": "0.3.3"
+        },
+        {
+          "name": "tracing",
+          "version": "0.1.44"
+        },
+        {
+          "name": "tracing-attributes",
+          "version": "0.1.31"
+        },
+        {
+          "name": "tracing-core",
+          "version": "0.1.36"
+        },
+        {
+          "name": "tracing-log",
+          "version": "0.2.0"
+        },
+        {
+          "name": "tracing-serde",
+          "version": "0.2.0"
+        },
+        {
+          "name": "tracing-subscriber",
+          "version": "0.3.23"
+        },
+        {
+          "name": "try-lock",
+          "version": "0.2.5"
+        },
+        {
+          "name": "typenum",
+          "version": "1.20.1"
+        },
+        {
+          "name": "unicode-ident",
+          "version": "1.0.26"
+        },
+        {
+          "name": "untrusted",
+          "version": "0.9.0"
+        },
+        {
+          "name": "url",
+          "version": "2.5.8"
+        },
+        {
+          "name": "urlencoding",
+          "version": "2.1.3"
+        },
+        {
+          "name": "utf8_iter",
+          "version": "1.0.4"
+        },
+        {
+          "name": "uuid",
+          "version": "1.28.0"
+        },
+        {
+          "name": "valuable",
+          "version": "0.1.1"
+        },
+        {
+          "name": "version_check",
+          "version": "0.9.5"
+        },
+        {
+          "name": "vsimd",
+          "version": "0.8.0"
+        },
+        {
+          "name": "want",
+          "version": "0.3.2"
+        },
+        {
+          "name": "wasi",
+          "version": "0.11.1+wasi-snapshot-preview1"
+        },
+        {
+          "name": "wasm-bindgen",
+          "version": "0.2.129"
+        },
+        {
+          "name": "wasm-bindgen-macro",
+          "version": "0.2.129"
+        },
+        {
+          "name": "wasm-bindgen-macro-support",
+          "version": "0.2.129"
+        },
+        {
+          "name": "wasm-bindgen-shared",
+          "version": "0.2.129"
+        },
+        {
+          "name": "windows-link",
+          "version": "0.2.1"
+        },
+        {
+          "name": "windows-sys",
+          "version": "0.52.0"
+        },
+        {
+          "name": "windows-sys",
+          "version": "0.61.2"
+        },
+        {
+          "name": "windows-targets",
+          "version": "0.52.6"
+        },
+        {
+          "name": "windows_aarch64_gnullvm",
+          "version": "0.52.6"
+        },
+        {
+          "name": "windows_aarch64_msvc",
+          "version": "0.52.6"
+        },
+        {
+          "name": "windows_i686_gnu",
+          "version": "0.52.6"
+        },
+        {
+          "name": "windows_i686_gnullvm",
+          "version": "0.52.6"
+        },
+        {
+          "name": "windows_i686_msvc",
+          "version": "0.52.6"
+        },
+        {
+          "name": "windows_x86_64_gnu",
+          "version": "0.52.6"
+        },
+        {
+          "name": "windows_x86_64_gnullvm",
+          "version": "0.52.6"
+        },
+        {
+          "name": "windows_x86_64_msvc",
+          "version": "0.52.6"
+        },
+        {
+          "name": "writeable",
+          "version": "0.6.4"
+        },
+        {
+          "name": "xmlparser",
+          "version": "0.13.6"
+        },
+        {
+          "name": "yoke",
+          "version": "0.8.3"
+        },
+        {
+          "name": "yoke-derive",
+          "version": "0.8.4"
+        },
+        {
+          "name": "zerofrom",
+          "version": "0.1.8"
+        },
+        {
+          "name": "zerofrom-derive",
+          "version": "0.1.8"
+        },
+        {
+          "name": "zeroize",
+          "version": "1.9.1"
+        },
+        {
+          "name": "zerotrie",
+          "version": "0.2.5"
+        },
+        {
+          "name": "zerovec",
+          "version": "0.11.8"
+        },
+        {
+          "name": "zerovec-derive",
+          "version": "0.11.6"
+        },
+        {
+          "name": "zmij",
+          "version": "1.0.23"
+        }
+      ]
+    }
+  },
+  "cells": [
+    {
+      "variant": "python",
+      "memory_mb": 512,
+      "status": "complete",
+      "started_at": "2026-10-11T14:09:56.233111+00:00",
+      "finished_at": "2026-10-11T14:19:05.330083+00:00"
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 512,
+      "status": "complete",
+      "started_at": "2026-10-11T14:10:04.804761+00:00",
+      "finished_at": "2026-10-11T14:19:06.542596+00:00"
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 512,
+      "status": "complete",
+      "started_at": "2026-10-11T14:11:01.897132+00:00",
+      "finished_at": "2026-10-11T14:19:07.670168+00:00"
+    }
+  ],
+  "publications": [
+    {
+      "variant": "python",
+      "memory_mb": 512,
+      "scenario": "smoke",
+      "published_at": "2026-10-11T14:09:58.711454+00:00",
+      "version": "4",
+      "active_at": "2026-10-11T14:09:59.089083+00:00",
+      "runtime_version": {
+        "RuntimeVersionArn": "arn:aws:lambda:eu-north-1::runtime:0aacb188d2c5b3aad9e30760eeca867126ff27643ac0b027e44a1f156beaf2d8"
+      },
+      "deleted_at": "2026-10-11T14:11:28.572333+00:00"
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 512,
+      "scenario": "smoke",
+      "published_at": "2026-10-11T14:10:07.284415+00:00",
+      "version": "4",
+      "active_at": "2026-10-11T14:10:57.878478+00:00",
+      "runtime_version": {
+        "RuntimeVersionArn": "arn:aws:lambda:eu-north-1::runtime:0aacb188d2c5b3aad9e30760eeca867126ff27643ac0b027e44a1f156beaf2d8"
+      },
+      "deleted_at": "2026-10-11T14:12:39.001064+00:00"
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 512,
+      "scenario": "smoke",
+      "published_at": "2026-10-11T14:11:04.431061+00:00",
+      "version": "3",
+      "active_at": "2026-10-11T14:11:04.841974+00:00",
+      "runtime_version": {
+        "RuntimeVersionArn": "arn:aws:lambda:eu-north-1::runtime:a4529b847b091eae2bf981d572b88e8436e06f2a6fc32b3ecb67fa326518cf95"
+      },
+      "deleted_at": "2026-10-11T14:12:55.523593+00:00"
+    },
+    {
+      "variant": "python",
+      "memory_mb": 512,
+      "scenario": "health",
+      "published_at": "2026-10-11T14:11:10.952429+00:00",
+      "version": "5",
+      "active_at": "2026-10-11T14:11:11.346504+00:00",
+      "runtime_version": {
+        "RuntimeVersionArn": "arn:aws:lambda:eu-north-1::runtime:0aacb188d2c5b3aad9e30760eeca867126ff27643ac0b027e44a1f156beaf2d8"
+      },
+      "deleted_at": "2026-10-11T14:14:44.834723+00:00"
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 512,
+      "scenario": "health",
+      "published_at": "2026-10-11T14:11:31.021228+00:00",
+      "version": "5",
+      "active_at": "2026-10-11T14:12:21.583946+00:00",
+      "runtime_version": {
+        "RuntimeVersionArn": "arn:aws:lambda:eu-north-1::runtime:0aacb188d2c5b3aad9e30760eeca867126ff27643ac0b027e44a1f156beaf2d8"
+      },
+      "deleted_at": "2026-10-11T14:14:06.374535+00:00"
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 512,
+      "scenario": "health",
+      "published_at": "2026-10-11T14:12:41.499615+00:00",
+      "version": "4",
+      "active_at": "2026-10-11T14:12:41.921908+00:00",
+      "runtime_version": {
+        "RuntimeVersionArn": "arn:aws:lambda:eu-north-1::runtime:a4529b847b091eae2bf981d572b88e8436e06f2a6fc32b3ecb67fa326518cf95"
+      },
+      "deleted_at": "2026-10-11T14:14:23.833431+00:00"
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 512,
+      "scenario": "users",
+      "published_at": "2026-10-11T14:12:57.986917+00:00",
+      "version": "6",
+      "active_at": "2026-10-11T14:13:48.210209+00:00",
+      "runtime_version": {
+        "RuntimeVersionArn": "arn:aws:lambda:eu-north-1::runtime:0aacb188d2c5b3aad9e30760eeca867126ff27643ac0b027e44a1f156beaf2d8"
+      },
+      "deleted_at": "2026-10-11T14:16:30.722880+00:00"
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 512,
+      "scenario": "users",
+      "published_at": "2026-10-11T14:14:08.885998+00:00",
+      "version": "5",
+      "active_at": "2026-10-11T14:14:09.316956+00:00",
+      "runtime_version": {
+        "RuntimeVersionArn": "arn:aws:lambda:eu-north-1::runtime:a4529b847b091eae2bf981d572b88e8436e06f2a6fc32b3ecb67fa326518cf95"
+      },
+      "deleted_at": "2026-10-11T14:15:02.468779+00:00"
+    },
+    {
+      "variant": "python",
+      "memory_mb": 512,
+      "scenario": "users",
+      "published_at": "2026-10-11T14:14:26.291295+00:00",
+      "version": "6",
+      "active_at": "2026-10-11T14:14:26.737310+00:00",
+      "runtime_version": {
+        "RuntimeVersionArn": "arn:aws:lambda:eu-north-1::runtime:0aacb188d2c5b3aad9e30760eeca867126ff27643ac0b027e44a1f156beaf2d8"
+      },
+      "deleted_at": "2026-10-11T14:15:22.918321+00:00"
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 512,
+      "scenario": "files",
+      "published_at": "2026-10-11T14:14:47.312999+00:00",
+      "version": "6",
+      "active_at": "2026-10-11T14:14:47.781474+00:00",
+      "runtime_version": {
+        "RuntimeVersionArn": "arn:aws:lambda:eu-north-1::runtime:a4529b847b091eae2bf981d572b88e8436e06f2a6fc32b3ecb67fa326518cf95"
+      }
+    },
+    {
+      "variant": "python",
+      "memory_mb": 512,
+      "scenario": "files",
+      "published_at": "2026-10-11T14:15:04.959498+00:00",
+      "version": "7",
+      "active_at": "2026-10-11T14:15:05.287161+00:00",
+      "runtime_version": {
+        "RuntimeVersionArn": "arn:aws:lambda:eu-north-1::runtime:0aacb188d2c5b3aad9e30760eeca867126ff27643ac0b027e44a1f156beaf2d8"
+      }
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 512,
+      "scenario": "files",
+      "published_at": "2026-10-11T14:15:25.435907+00:00",
+      "version": "7",
+      "active_at": "2026-10-11T14:16:15.910468+00:00",
+      "runtime_version": {
+        "RuntimeVersionArn": "arn:aws:lambda:eu-north-1::runtime:0aacb188d2c5b3aad9e30760eeca867126ff27643ac0b027e44a1f156beaf2d8"
+      }
+    }
+  ],
+  "functional": [
+    {
+      "variant": "python",
+      "memory_mb": 512,
+      "checks": [
+        {
+          "fixture": "standard",
+          "passed": true
+        },
+        {
+          "fixture": "missing_name",
+          "passed": true
+        },
+        {
+          "fixture": "missing_email",
+          "passed": true
+        },
+        {
+          "fixture": "missing_age",
+          "passed": true
+        },
+        {
+          "fixture": "unexpected",
+          "passed": true
+        },
+        {
+          "fixture": "boolean_age",
+          "passed": true
+        },
+        {
+          "fixture": "string_age",
+          "passed": true
+        },
+        {
+          "fixture": "float_age",
+          "passed": true
+        },
+        {
+          "fixture": "too_young",
+          "passed": true
+        },
+        {
+          "fixture": "too_old",
+          "passed": true
+        },
+        {
+          "fixture": "null_name",
+          "passed": true
+        },
+        {
+          "fixture": "numeric_name",
+          "passed": true
+        },
+        {
+          "fixture": "short_name",
+          "passed": true
+        },
+        {
+          "fixture": "long_name",
+          "passed": true
+        },
+        {
+          "fixture": "unicode_100",
+          "passed": true
+        },
+        {
+          "fixture": "unicode_short",
+          "passed": true
+        },
+        {
+          "fixture": "combining_two",
+          "passed": true
+        },
+        {
+          "fixture": "lower_bounds",
+          "passed": true
+        },
+        {
+          "fixture": "upper_bounds",
+          "passed": true
+        },
+        {
+          "fixture": "invalid_email",
+          "passed": true
+        },
+        {
+          "fixture": "email_dots",
+          "passed": true
+        },
+        {
+          "fixture": "email_space",
+          "passed": true
+        },
+        {
+          "fixture": "email_unicode",
+          "passed": true
+        },
+        {
+          "fixture": "email_domain_dash",
+          "passed": true
+        },
+        {
+          "fixture": "email_newline",
+          "passed": true
+        },
+        {
+          "fixture": "email_plus",
+          "passed": true
+        },
+        {
+          "fixture": "email_local_65",
+          "passed": true
+        },
+        {
+          "fixture": "null_tags",
+          "passed": true
+        },
+        {
+          "fixture": "string_tags",
+          "passed": true
+        },
+        {
+          "fixture": "numeric_tag",
+          "passed": true
+        },
+        {
+          "fixture": "too_many_tags",
+          "passed": true
+        },
+        {
+          "fixture": "ten_tags",
+          "passed": true
+        },
+        {
+          "fixture": "omitted_tags",
+          "passed": true
+        },
+        {
+          "fixture": "malformed",
+          "passed": true
+        },
+        {
+          "fixture": "array",
+          "passed": true
+        },
+        {
+          "fixture": "null",
+          "passed": true
+        },
+        {
+          "fixture": "duplicate",
+          "passed": true
+        },
+        {
+          "fixture": "nonfinite",
+          "passed": true
+        },
+        {
+          "fixture": "surrogate_name",
+          "passed": true
+        },
+        {
+          "fixture": "surrogate_tag",
+          "passed": true
+        },
+        {
+          "fixture": "dynamodb_persistence",
+          "passed": true
+        },
+        {
+          "fixture": "s3_binary_and_content_type",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "variant": "python-snapstart",
+      "memory_mb": 512,
+      "checks": [
+        {
+          "fixture": "standard",
+          "passed": true
+        },
+        {
+          "fixture": "missing_name",
+          "passed": true
+        },
+        {
+          "fixture": "missing_email",
+          "passed": true
+        },
+        {
+          "fixture": "missing_age",
+          "passed": true
+        },
+        {
+          "fixture": "unexpected",
+          "passed": true
+        },
+        {
+          "fixture": "boolean_age",
+          "passed": true
+        },
+        {
+          "fixture": "string_age",
+          "passed": true
+        },
+        {
+          "fixture": "float_age",
+          "passed": true
+        },
+        {
+          "fixture": "too_young",
+          "passed": true
+        },
+        {
+          "fixture": "too_old",
+          "passed": true
+        },
+        {
+          "fixture": "null_name",
+          "passed": true
+        },
+        {
+          "fixture": "numeric_name",
+          "passed": true
+        },
+        {
+          "fixture": "short_name",
+          "passed": true
+        },
+        {
+          "fixture": "long_name",
+          "passed": true
+        },
+        {
+          "fixture": "unicode_100",
+          "passed": true
+        },
+        {
+          "fixture": "unicode_short",
+          "passed": true
+        },
+        {
+          "fixture": "combining_two",
+          "passed": true
+        },
+        {
+          "fixture": "lower_bounds",
+          "passed": true
+        },
+        {
+          "fixture": "upper_bounds",
+          "passed": true
+        },
+        {
+          "fixture": "invalid_email",
+          "passed": true
+        },
+        {
+          "fixture": "email_dots",
+          "passed": true
+        },
+        {
+          "fixture": "email_space",
+          "passed": true
+        },
+        {
+          "fixture": "email_unicode",
+          "passed": true
+        },
+        {
+          "fixture": "email_domain_dash",
+          "passed": true
+        },
+        {
+          "fixture": "email_newline",
+          "passed": true
+        },
+        {
+          "fixture": "email_plus",
+          "passed": true
+        },
+        {
+          "fixture": "email_local_65",
+          "passed": true
+        },
+        {
+          "fixture": "null_tags",
+          "passed": true
+        },
+        {
+          "fixture": "string_tags",
+          "passed": true
+        },
+        {
+          "fixture": "numeric_tag",
+          "passed": true
+        },
+        {
+          "fixture": "too_many_tags",
+          "passed": true
+        },
+        {
+          "fixture": "ten_tags",
+          "passed": true
+        },
+        {
+          "fixture": "omitted_tags",
+          "passed": true
+        },
+        {
+          "fixture": "malformed",
+          "passed": true
+        },
+        {
+          "fixture": "array",
+          "passed": true
+        },
+        {
+          "fixture": "null",
+          "passed": true
+        },
+        {
+          "fixture": "duplicate",
+          "passed": true
+        },
+        {
+          "fixture": "nonfinite",
+          "passed": true
+        },
+        {
+          "fixture": "surrogate_name",
+          "passed": true
+        },
+        {
+          "fixture": "surrogate_tag",
+          "passed": true
+        },
+        {
+          "fixture": "dynamodb_persistence",
+          "passed": true
+        },
+        {
+          "fixture": "s3_binary_and_content_type",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "variant": "rust",
+      "memory_mb": 512,
+      "checks": [
+        {
+          "fixture": "standard",
+          "passed": true
+        },
+        {
+          "fixture": "missing_name",
+          "passed": true
+        },
+        {
+          "fixture": "missing_email",
+          "passed": true
+        },
+        {
+          "fixture": "missing_age",
+          "passed": true
+        },
+        {
+          "fixture": "unexpected",
+          "passed": true
+        },
+        {
+          "fixture": "boolean_age",
+          "passed": true
+        },
+        {
+          "fixture": "string_age",
+          "passed": true
+        },
+        {
+          "fixture": "float_age",
+          "passed": true
+        },
+        {
+          "fixture": "too_young",
+          "passed": true
+        },
+        {
+          "fixture": "too_old",
+          "passed": true
+        },
+        {
+          "fixture": "null_name",
+          "passed": true
+        },
+        {
+          "fixture": "numeric_name",
+          "passed": true
+        },
+        {
+          "fixture": "short_name",
+          "passed": true
+        },
+        {
+          "fixture": "long_name",
+          "passed": true
+        },
+        {
+          "fixture": "unicode_100",
+          "passed": true
+        },
+        {
+          "fixture": "unicode_short",
+          "passed": true
+        },
+        {
+          "fixture": "combining_two",
+          "passed": true
+        },
+        {
+          "fixture": "lower_bounds",
+          "passed": true
+        },
+        {
+          "fixture": "upper_bounds",
+          "passed": true
+        },
+        {
+          "fixture": "invalid_email",
+          "passed": true
+        },
+        {
+          "fixture": "email_dots",
+          "passed": true
+        },
+        {
+          "fixture": "email_space",
+          "passed": true
+        },
+        {
+          "fixture": "email_unicode",
+          "passed": true
+        },
+        {
+          "fixture": "email_domain_dash",
+          "passed": true
+        },
+        {
+          "fixture": "email_newline",
+          "passed": true
+        },
+        {
+          "fixture": "email_plus",
+          "passed": true
+        },
+        {
+          "fixture": "email_local_65",
+          "passed": true
+        },
+        {
+          "fixture": "null_tags",
+          "passed": true
+        },
+        {
+          "fixture": "string_tags",
+          "passed": true
+        },
+        {
+          "fixture": "numeric_tag",
+          "passed": true
+        },
+        {
+          "fixture": "too_many_tags",
+          "passed": true
+        },
+        {
+          "fixture": "ten_tags",
+          "passed": true
+        },
+        {
+          "fixture": "omitted_tags",
+          "passed": true
+        },
+        {
+          "fixture": "malformed",
+          "passed": true
+        },
+        {
+          "fixture": "array",
+          "passed": true
+        },
+        {
+          "fixture": "null",
+          "passed": true
+        },
+        {
+          "fixture": "duplicate",
+          "passed": true
+        },
+        {
+          "fixture": "nonfinite",
+          "passed": true
+        },
+        {
+          "fixture": "surrogate_name",
+          "passed": true
+        },
+        {
+          "fixture": "surrogate_tag",
+          "passed": true
+        },
+        {
+          "fixture": "dynamodb_persistence",
+          "passed": true
+        },
+        {
+          "fixture": "s3_binary_and_content_type",
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "No artificial holds or service prefetching.",
+    "Warm traffic is sequential. Variant order rotates per scenario and memory.",
+    "REPORT max memory is the execution environment high-water mark.",
+    "Suppressed initialization without telemetry is excluded conservatively.",
+    "Invalid validation 422 responses are expected successes."
+  ],
+  "concurrency": {
+    "ResponseMetadata": {
+      "RequestId": "d406aebb-ecd3-476f-9eee-4a9a8e7c90b7",
+      "HTTPStatusCode": 200,
+      "HTTPHeaders": {
+        "date": "Sun, 11 Oct 2026 14:09:55 GMT",
+        "content-type": "application/json",
+        "content-length": "425",
+        "connection": "keep-alive",
+        "x-amzn-requestid": "d406aebb-ecd3-476f-9eee-4a9a8e7c90b7"
+      },
+      "RetryAttempts": 0
+    },
+    "AccountLimit": {
+      "TotalCodeSize": 322122547200,
+      "CodeSizeUnzipped": 262144000,
+      "CodeSizeZipped": 52428800,
+      "ConcurrentExecutions": 1000,
+      "UnreservedConcurrentExecutions": 698
+    },
+    "AccountUsage": {
+      "TotalCodeSize": 881365457,
+      "FunctionCount": 57
+    }
+  },
+  "client": {
+    "region": "eu-north-1",
+    "instanceType": "t3.small",
+    "availabilityZone": "eu-north-1a"
+  },
+  "deployed": {
+    "python": {
+      "Runtime": "python3.13",
+      "Architectures": [
+        "arm64"
+      ],
+      "CodeSha256": "C9woEJ5jCiUHinRz/bTUjKpI428SV45X07iQg84sWrY=",
+      "CodeSize": 19683354,
+      "Timeout": 15,
+      "MemorySize": 512,
+      "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+      },
+      "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:eu-north-1::runtime:0aacb188d2c5b3aad9e30760eeca867126ff27643ac0b027e44a1f156beaf2d8"
+      }
+    },
+    "python-snapstart": {
+      "Runtime": "python3.13",
+      "Architectures": [
+        "arm64"
+      ],
+      "CodeSha256": "C9woEJ5jCiUHinRz/bTUjKpI428SV45X07iQg84sWrY=",
+      "CodeSize": 19683354,
+      "Timeout": 15,
+      "MemorySize": 512,
+      "SnapStart": {
+        "ApplyOn": "PublishedVersions",
+        "OptimizationStatus": "Off"
+      },
+      "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:eu-north-1::runtime:0aacb188d2c5b3aad9e30760eeca867126ff27643ac0b027e44a1f156beaf2d8"
+      }
+    },
+    "rust": {
+      "Runtime": "provided.al2023",
+      "Architectures": [
+        "arm64"
+      ],
+      "CodeSha256": "44rOCVooS4tJA82ya/5XrR0FyLlFbPXyHL1Fjduw/6E=",
+      "CodeSize": 5833899,
+      "Timeout": 15,
+      "MemorySize": 512,
+      "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+      },
+      "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:eu-north-1::runtime:a4529b847b091eae2bf981d572b88e8436e06f2a6fc32b3ecb67fa326518cf95"
+      }
+    }
+  },
+  "batch_order": [
+    {
+      "memory_mb": 512,
+      "phase": "cold",
+      "scenario": "health",
+      "variants": [
+        "python",
+        "python-snapstart",
+        "rust"
+      ]
+    },
+    {
+      "memory_mb": 512,
+      "phase": "cold",
+      "scenario": "users",
+      "variants": [
+        "python-snapstart",
+        "rust",
+        "python"
+      ]
+    },
+    {
+      "memory_mb": 512,
+      "phase": "cold",
+      "scenario": "files",
+      "variants": [
+        "rust",
+        "python",
+        "python-snapstart"
+      ]
+    },
+    {
+      "memory_mb": 512,
+      "phase": "warm",
+      "scenario": "health",
+      "variants": [
+        "python",
+        "python-snapstart",
+        "rust"
+      ]
+    },
+    {
+      "memory_mb": 512,
+      "phase": "warm",
+      "scenario": "validate",
+      "variants": [
+        "python-snapstart",
+        "rust",
+        "python"
+      ]
+    },
+    {
+      "memory_mb": 512,
+      "phase": "warm",
+      "scenario": "validate_invalid",
+      "variants": [
+        "rust",
+        "python",
+        "python-snapstart"
+      ]
+    },
+    {
+      "memory_mb": 512,
+      "phase": "warm",
+      "scenario": "users",
+      "variants": [
+        "python",
+        "python-snapstart",
+        "rust"
+      ]
+    },
+    {
+      "memory_mb": 512,
+      "phase": "warm",
+      "scenario": "files",
+      "variants": [
+        "python-snapstart",
+        "rust",
+        "python"
+      ]
+    }
+  ],
+  "traffic": {
+    "actual_http_requests": 1347,
+    "by_phase": {
+      "setup": 129,
+      "cold": 1134,
+      "warm": 84
+    },
+    "unexpected_errors": 0,
+    "http_429": 0,
+    "excluded_reasons": {
+      "service_warmup": 9
+    },
+    "verified_cold": 158,
+    "warm_reuses": 1180
+  },
+  "cleanup": [
+    {
+      "at": "2026-10-11T14:19:06.447192+00:00",
+      "variant": "python",
+      "users": 133,
+      "files": 133
+    },
+    {
+      "at": "2026-10-11T14:19:07.574004+00:00",
+      "variant": "python-snapstart",
+      "users": 133,
+      "files": 133
+    },
+    {
+      "at": "2026-10-11T14:19:08.822079+00:00",
+      "variant": "rust",
+      "users": 133,
+      "files": 133
+    }
+  ],
+  "platform_metrics": {
+    "python": {
+      "Throttles": 0.0,
+      "Errors": 0.0,
+      "Invocations": 445.0
+    },
+    "python-snapstart": {
+      "Throttles": 0.0,
+      "Errors": 0.0,
+      "Invocations": 448.0
+    },
+    "rust": {
+      "Throttles": 0.0,
+      "Errors": 0.0,
+      "Invocations": 445.0
+    }
+  },
+  "finished_at": "2026-10-11T14:19:08.977064+00:00",
+  "status": "complete"
+}

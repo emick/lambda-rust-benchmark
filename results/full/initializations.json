@@ -1,0 +1,1642 @@
+[
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791728463989,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[8]56c55221a4f94acabad673d3f9872b4a",
+    "version": "8",
+    "init_ms": 20938.73,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 20938.73 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791728465511,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[8]88842d0ecb6a49469d88f8acf5c7eaff",
+    "version": "8",
+    "init_ms": 22379.06,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 22379.06 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": null,
+    "timestamp_ms": 1791728533126,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[3]463a7a4c862c43edbddafabe8199d2bc",
+    "version": "3",
+    "init_ms": 4931.58,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 4931.58 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": null,
+    "timestamp_ms": 1791728533178,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[3]c56c283ef88349559847cdbc488da8c4",
+    "version": "3",
+    "init_ms": 5005.12,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5005.12 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": null,
+    "timestamp_ms": 1791728533574,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[3]e2b77a3a3ad04a2880d87ee299ef770a",
+    "version": "3",
+    "init_ms": 5412.51,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5412.51 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": null,
+    "timestamp_ms": 1791728533633,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[3]8d1b97244c72412eb61b715f1e3353d4",
+    "version": "3",
+    "init_ms": 5433.11,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5433.11 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791728668080,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[9]8342b4648eb345bfab60e7a6843d28d7",
+    "version": "9",
+    "init_ms": 21199.12,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 21199.12 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791728668814,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[9]37ce6e8a62d342a885aa86fa0fdb362f",
+    "version": "9",
+    "init_ms": 21899.42,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 21899.42 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791728757826,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[10]cfb6d618068c4835ac73617e147e55eb",
+    "version": "10",
+    "init_ms": 20919.08,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 20919.08 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791728758966,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[10]aa959e0ba42542d1aa0eb04bfdce96fe",
+    "version": "10",
+    "init_ms": 22039.07,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 22039.07 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791728853136,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[11]129be9a487834c91ae0ff139b4b4a177",
+    "version": "11",
+    "init_ms": 20939.32,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 20939.32 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791728854720,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[11]fd57b8f66b5e4e368dc1867389ec7f37",
+    "version": "11",
+    "init_ms": 22519.64,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 22519.64 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791728944116,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[12]97a1a531fa7e4c42acd43a0bf7db1d1d",
+    "version": "12",
+    "init_ms": 20379.17,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 20379.17 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791728945255,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[12]b67a823962cf44709917f8484fd4c575",
+    "version": "12",
+    "init_ms": 21578.29,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 21578.29 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791729039210,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[13]ebddb874e8ad437fbe9820c20fdae8d5",
+    "version": "13",
+    "init_ms": 20179.23,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 20179.23 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791729040649,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[13]67616637f702493dad4169d38e03925a",
+    "version": "13",
+    "init_ms": 21578.56,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 21578.56 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791729235060,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[14]5f0c0b417c074335b8a96aaa30f6740f",
+    "version": "14",
+    "init_ms": 20719.43,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 20719.43 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791729237180,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[14]e089d808751a4752b98679babdef6a67",
+    "version": "14",
+    "init_ms": 22857.69,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 22857.69 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791729328889,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[15]4e830cd73c19450692a3cb12ef900f87",
+    "version": "15",
+    "init_ms": 20199.0,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 20199.00 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791729331970,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[15]bcf3efe416a14fe7b303385049f0b95e",
+    "version": "15",
+    "init_ms": 23278.65,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 23278.65 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": null,
+    "timestamp_ms": 1791729353095,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[7]c09ecf138c74441db5f49c954ade64e6",
+    "version": "7",
+    "init_ms": 5021.66,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5021.66 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": null,
+    "timestamp_ms": 1791729353130,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[7]4bda030e16d84c2fbf5586d81da9e405",
+    "version": "7",
+    "init_ms": 5097.99,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5097.99 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": null,
+    "timestamp_ms": 1791729353321,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[7]a406d5134688495b871d72a4a75d5148",
+    "version": "7",
+    "init_ms": 5286.08,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5286.08 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": null,
+    "timestamp_ms": 1791729353409,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[7]5f621ca9966f47ddba2cdf1bd390e1fc",
+    "version": "7",
+    "init_ms": 5369.76,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5369.76 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791729419949,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[16]b8e858d9e7de4ce49a6ffce6dc5af4d9",
+    "version": "16",
+    "init_ms": 20638.83,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 20638.83 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791729421695,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[16]56cd6cddfa014c8f91a8a52877ac1f3f",
+    "version": "16",
+    "init_ms": 22078.95,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 22078.95 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791729514099,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[17]c30acd14112f4076ba679cfd028baa8f",
+    "version": "17",
+    "init_ms": 20518.91,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 20518.91 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791729515334,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[17]141ee33cf4864b598c0c440ef3f2c11c",
+    "version": "17",
+    "init_ms": 21739.71,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 21739.71 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791729607967,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[18]8d9c40ae1e1e4a0ba0c7515910a83dd7",
+    "version": "18",
+    "init_ms": 21319.27,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 21319.27 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791729608980,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[18]2eef324422f948109ffd385746a02f07",
+    "version": "18",
+    "init_ms": 22418.9,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 22418.90 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791730119030,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[19]cefa056a315045af879281a521506ca2",
+    "version": "19",
+    "init_ms": 20379.14,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 20379.14 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791730120336,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[19]bc778203ddf648ae94347a9bf77bcb4e",
+    "version": "19",
+    "init_ms": 21678.93,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 21678.93 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791730218103,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[20]8614e487946245819bf0dc6c1d7542f1",
+    "version": "20",
+    "init_ms": 20399.34,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 20399.34 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791730219831,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[20]ba3d24e832a543cc9031229327e3ce59",
+    "version": "20",
+    "init_ms": 22139.33,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 22139.33 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791730310333,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[21]50564d1da889431e82f6292823010337",
+    "version": "21",
+    "init_ms": 22139.19,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 22139.19 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791730310374,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[21]2a5bfca0f5a546ef85d2176ce1f9f5cc",
+    "version": "21",
+    "init_ms": 22158.94,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 22158.94 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791730400822,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[22]299a18843ff94895b181e41e05ac85cd",
+    "version": "22",
+    "init_ms": 20379.02,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 20379.02 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791730402577,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[22]1c2f91dcb3364c47896a6aa95ebd1cba",
+    "version": "22",
+    "init_ms": 21798.82,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 21798.82 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791731361095,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[23]c6e83140ff094bc0848f653a6c9e7715",
+    "version": "23",
+    "init_ms": 10141.13,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10141.13 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791731361891,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[23]85a5ae3934a54bb697a8a71e39e2f775",
+    "version": "23",
+    "init_ms": 10939.74,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10939.74 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791731524085,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[22]5d94f9dc59b147b3a863a8d49ac9222d",
+    "version": "22",
+    "init_ms": 19899.1,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 19899.10 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791731524439,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[22]140970ed6bc0476ab945a3112c722fae",
+    "version": "22",
+    "init_ms": 20338.99,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 20338.99 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791731525787,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[22]20958876dc914feb9bdef3f867ba51cb",
+    "version": "22",
+    "init_ms": 21698.94,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 21698.94 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 128,
+    "timestamp_ms": 1791731525922,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[22]c1f6122da5d94885a3e73826f7ef562c",
+    "version": "22",
+    "init_ms": 21858.84,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 21858.84 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791731704325,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[24]93b2a13159ce4e07a84921aefb367280",
+    "version": "24",
+    "init_ms": 10176.65,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10176.65 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791731705165,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[24]858815e3cb2e4eb8926aba1a79315543",
+    "version": "24",
+    "init_ms": 10979.93,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10979.93 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791731787460,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[25]a9f327755017482ab2c51fa9641e3a41",
+    "version": "25",
+    "init_ms": 9944.15,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 9944.15 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791731788762,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[25]93117d8a9bbc4affa7d648bac7ef9891",
+    "version": "25",
+    "init_ms": 11324.05,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 11324.05 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791731870148,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[26]e6ae5fc80aa44cf9bbbb70d9ddeeccf9",
+    "version": "26",
+    "init_ms": 10169.52,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10169.52 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791731871436,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[26]f75bd8fc73d0406e99c64374b4f65401",
+    "version": "26",
+    "init_ms": 11373.41,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 11373.41 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791731953783,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[27]adce38bece09410eb1b32fd3e8715821",
+    "version": "27",
+    "init_ms": 10018.53,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10018.53 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791731955012,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[27]ee5ae3cd8df043b1a219d91053f358b3",
+    "version": "27",
+    "init_ms": 11188.26,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 11188.26 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791732038168,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[28]94dad3e94d0249efb7556127edc26a3c",
+    "version": "28",
+    "init_ms": 10228.65,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10228.65 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791732038902,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[28]2f2db861836245619dbbe91981c5b56c",
+    "version": "28",
+    "init_ms": 10958.02,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10958.02 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791732122299,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[29]f1ede4d079824b078560b1c62729305d",
+    "version": "29",
+    "init_ms": 10120.52,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10120.52 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791732123309,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[29]d48fdc6c9deb4055a8e210058d69a936",
+    "version": "29",
+    "init_ms": 11187.64,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 11187.64 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791732323282,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[30]354b2b089c4d41fcad7b80d45445ba5f",
+    "version": "30",
+    "init_ms": 10327.52,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10327.52 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791732324226,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[30]5a980f027c3d4a9296052c5015991226",
+    "version": "30",
+    "init_ms": 11235.12,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 11235.12 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791732406701,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[31]c519f249a37046848c62ef285ead00de",
+    "version": "31",
+    "init_ms": 10061.23,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10061.23 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791732407705,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[31]4d68398ffe764a29bd99181797a6974a",
+    "version": "31",
+    "init_ms": 11089.97,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 11089.97 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791732485965,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[32]7ca7417777724d10b28a07dfb84535d8",
+    "version": "32",
+    "init_ms": 10272.45,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10272.45 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791732486808,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[32]32871b9c778541e5badc3f29824e1a59",
+    "version": "32",
+    "init_ms": 10995.03,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10995.03 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791732569990,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[33]7c1f5534aa4643dd8049543dc71a715c",
+    "version": "33",
+    "init_ms": 10083.74,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10083.74 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791732570757,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[33]6871dd4a58114a1eb9146772db9e6ca1",
+    "version": "33",
+    "init_ms": 10838.43,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10838.43 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791732655446,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[34]efe160147f1f433d81234a2e5aa270a3",
+    "version": "34",
+    "init_ms": 10204.46,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10204.46 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791732656302,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[34]97cd4e02336f428f8b7fca8c1de55e71",
+    "version": "34",
+    "init_ms": 11080.05,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 11080.05 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791732863655,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[35]3e00e63eed964fedb632f492d022c6c3",
+    "version": "35",
+    "init_ms": 10124.0,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10124.00 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791732865015,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[35]c91116e9d8b44733a4b76b186e44daa2",
+    "version": "35",
+    "init_ms": 11540.28,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 11540.28 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791732948340,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[36]cc2cf82a37244581a6f6b9ca9d2742ea",
+    "version": "36",
+    "init_ms": 10012.02,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10012.02 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791732949449,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[36]b2db2b6d23384821bacbfa2c5f4ad06c",
+    "version": "36",
+    "init_ms": 11080.52,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 11080.52 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791733032061,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[37]7793cc91deae41a4af801e157229fb62",
+    "version": "37",
+    "init_ms": 10062.25,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10062.25 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791733033214,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[37]f0c0557a923b41c995ff96e0b9d5e499",
+    "version": "37",
+    "init_ms": 11174.72,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 11174.72 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791733117437,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[38]b88826a757184b58b4fb67db2f3719bf",
+    "version": "38",
+    "init_ms": 10035.28,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10035.28 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791733118403,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[38]3f922bf368f7439a949088795ded8028",
+    "version": "38",
+    "init_ms": 10784.58,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10784.58 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791733204111,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[39]06a72e7736204b7a846c3296f1dd918a",
+    "version": "39",
+    "init_ms": 10246.15,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10246.15 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791733204686,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[39]2f8e7decdf574f9f9c8a787c26dfce82",
+    "version": "39",
+    "init_ms": 10835.06,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10835.06 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791734017139,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[39]5c0dd0ae2dae4ade9c3c2d51d693b175",
+    "version": "39",
+    "init_ms": 10016.75,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10016.75 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791734017170,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[39]0d990971e5fe4252afed8d5790ed0a58",
+    "version": "39",
+    "init_ms": 10025.3,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10025.30 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791734017825,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[39]f4a8e0154bc244349ac622333fe11738",
+    "version": "39",
+    "init_ms": 10673.0,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10673.00 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 256,
+    "timestamp_ms": 1791734017970,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[39]041154b1d6f74691aafe28cbd3a5da23",
+    "version": "39",
+    "init_ms": 10823.3,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 10823.30 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791734366207,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[40]35efd6d9ac524158ab4889a91bd853a1",
+    "version": "40",
+    "init_ms": 5078.65,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5078.65 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791734366523,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[40]dd08397b3500409dae5186737335c19e",
+    "version": "40",
+    "init_ms": 5361.1,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5361.10 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791734430116,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[41]23bc79b117c0428589221f0300fe52d2",
+    "version": "41",
+    "init_ms": 4953.44,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 4953.44 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791734430631,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[41]0de489373bbf4b209f651c2132176356",
+    "version": "41",
+    "init_ms": 5386.23,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5386.23 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791734506701,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[42]a191f938283146618221c29878212222",
+    "version": "42",
+    "init_ms": 4984.45,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 4984.45 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791734507259,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[42]6b2063830fc84e3f8ed80b9aa99a0f1e",
+    "version": "42",
+    "init_ms": 5511.77,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5511.77 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791734582855,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[43]336ca7f22e964d9fa96950aa6b34bb73",
+    "version": "43",
+    "init_ms": 5076.1,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5076.10 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791734583273,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[43]b96e45f896fa4f4e9dc16ba0c0ca25e2",
+    "version": "43",
+    "init_ms": 5480.34,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5480.34 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791734654966,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[44]2285cafea96d4153b9279f830e5e9b98",
+    "version": "44",
+    "init_ms": 5054.54,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5054.54 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791734655309,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[44]d9071f5b3a274b3aa361a774a64255c0",
+    "version": "44",
+    "init_ms": 5394.75,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5394.75 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791734731387,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[45]0da1ef1de3cc4307b29027025fede90c",
+    "version": "45",
+    "init_ms": 4946.4,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 4946.40 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791734731842,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[45]8c693ae017f24bfb8b1bb98ecfd53975",
+    "version": "45",
+    "init_ms": 5351.87,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5351.87 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791734803949,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[46]e3985723df7844a88ac31c66d950dc38",
+    "version": "46",
+    "init_ms": 4986.8,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 4986.80 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791734804321,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[46]c68bfb9f0c18435c9c29788380aa8c19",
+    "version": "46",
+    "init_ms": 5312.24,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5312.24 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791735584230,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[47]044aa23d7b49403d8d8600e5b75a8e37",
+    "version": "47",
+    "init_ms": 5122.95,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5122.95 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791735584454,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[47]2a5b3994333d498ba27bc124408c0fa9",
+    "version": "47",
+    "init_ms": 5375.18,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5375.18 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791735652799,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[48]55e3a5c069b441cca5845c700b503930",
+    "version": "48",
+    "init_ms": 4991.26,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 4991.26 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791735653276,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[48]fbfaa7c313584f86af6b9962b90a35ff",
+    "version": "48",
+    "init_ms": 5436.2,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5436.20 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791735724228,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[49]11d35ea8c9174248afacce88e928e67b",
+    "version": "49",
+    "init_ms": 5062.43,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5062.43 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791735724646,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[49]160514165e7e418b91c407ab0f25efe7",
+    "version": "49",
+    "init_ms": 5444.58,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5444.58 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791735799194,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[50]1f998b5bfd9d410eab97293f44c42365",
+    "version": "50",
+    "init_ms": 5035.41,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5035.41 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791735799582,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[50]9f14e442ad2c400296f39e6397bf6f97",
+    "version": "50",
+    "init_ms": 5454.94,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5454.94 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791735872883,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[51]8c5f16164ea5471fa0a8637037e28d06",
+    "version": "51",
+    "init_ms": 4955.95,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 4955.95 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791735873330,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[51]7c99b693c50340838cbc6c16a7ac71d4",
+    "version": "51",
+    "init_ms": 5443.73,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5443.73 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791735951021,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[52]115ef8733f4a4b6e9bf9f2a775db0ef8",
+    "version": "52",
+    "init_ms": 5123.78,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5123.78 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791735951326,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[52]159b408ef5f14dcfaa08e9add0eb730a",
+    "version": "52",
+    "init_ms": 5412.6,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5412.60 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791736155791,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[53]57c9fdf393884b818ceeb474e7c85f7f",
+    "version": "53",
+    "init_ms": 4960.65,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 4960.65 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791736156295,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[53]6dcc6a183e7f4858a53cb7b6b0dee2c9",
+    "version": "53",
+    "init_ms": 5349.37,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5349.37 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791736233477,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[54]df7957ab48d64c1b8b6ebdb23245a817",
+    "version": "54",
+    "init_ms": 5045.47,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5045.47 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791736233856,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[54]f72d943502844a96a8620cb0d371bd9a",
+    "version": "54",
+    "init_ms": 5428.12,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5428.12 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791736310550,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[55]7db6a1593abb477195af99cd855df00b",
+    "version": "55",
+    "init_ms": 4946.05,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 4946.05 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791736311126,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[55]591b8b43537a4275bffaca0ca2786ab5",
+    "version": "55",
+    "init_ms": 5503.24,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5503.24 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791736386558,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[56]884165768fee4c128cf16d4cff746f00",
+    "version": "56",
+    "init_ms": 5034.53,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5034.53 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791736386966,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[56]e8d37f4900e24346a0679cf01dc10dd7",
+    "version": "56",
+    "init_ms": 5402.83,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5402.83 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791736464746,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[57]85eef757d4434c609bee6b2d90aa539f",
+    "version": "57",
+    "init_ms": 5040.51,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5040.51 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791736465255,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[57]967398d3fd274431b0f2447f65087193",
+    "version": "57",
+    "init_ms": 5533.76,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5533.76 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791737116626,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[57]afdb1319746541989f45c8719fa671c4",
+    "version": "57",
+    "init_ms": 4968.14,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 4968.14 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791737116662,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[57]400ca3df39674588abbf1e886f291eb8",
+    "version": "57",
+    "init_ms": 4974.91,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 4974.91 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791737117047,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[57]21277b2123264718b99c599c22ec6227",
+    "version": "57",
+    "init_ms": 5331.02,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5331.02 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 512,
+    "timestamp_ms": 1791737117099,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[57]3a5c85cbf7dd4d81ab2999ff8972f8b5",
+    "version": "57",
+    "init_ms": 5418.58,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 5418.58 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791737606775,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[58]f1af7d3d7165439ab3fd127c2ce17eb1",
+    "version": "58",
+    "init_ms": 2526.1,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2526.10 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791737606991,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[58]9b2743ca499743a7892d428c5fe12261",
+    "version": "58",
+    "init_ms": 2712.51,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2712.51 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791737900853,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[59]a9a603879109461f8e59a4da34ba34d4",
+    "version": "59",
+    "init_ms": 2583.41,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2583.41 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791737901076,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[59]33be294b6170484789b5a76b31735500",
+    "version": "59",
+    "init_ms": 2758.36,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2758.36 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791737980113,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[60]72b6ccd5063640cea6080176cb5a1ce8",
+    "version": "60",
+    "init_ms": 2553.6,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2553.60 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791737980201,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[60]48edac094dbe499dbd07de928442afc0",
+    "version": "60",
+    "init_ms": 2756.87,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2756.87 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791738059027,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[61]6aa5a8b91d0d4216a2b6b5e8a7de8ad3",
+    "version": "61",
+    "init_ms": 2486.36,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2486.36 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791738059217,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[61]1960cc31db9d4e8b81f4d4773c9ad496",
+    "version": "61",
+    "init_ms": 2722.85,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2722.85 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791738134441,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[62]252b0d27fc884e099b0287a2d6e3aaab",
+    "version": "62",
+    "init_ms": 2498.68,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2498.68 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791738134646,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[62]125800035ecc4f1888dd057a53fb9b8b",
+    "version": "62",
+    "init_ms": 2750.15,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2750.15 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791738213328,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[63]6cb6379a3f46407980231b50e4d28b13",
+    "version": "63",
+    "init_ms": 2554.42,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2554.42 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791738213519,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[63]df2528316c894258a795352783690ed9",
+    "version": "63",
+    "init_ms": 2715.95,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2715.95 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791738293189,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[64]10dc3198d8a044eab9383045871d8165",
+    "version": "64",
+    "init_ms": 2513.84,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2513.84 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791738293439,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[64]09accd1032a84a77aa15f5b2d6cd3f34",
+    "version": "64",
+    "init_ms": 2750.31,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2750.31 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791738372553,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[65]fa42591fe8584661a256dbefe9c770d5",
+    "version": "65",
+    "init_ms": 2546.53,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2546.53 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791738372893,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[65]407dc9e5e2544ac4bbf3f46718174692",
+    "version": "65",
+    "init_ms": 2815.33,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2815.33 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791738447753,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[66]1f9f7c0b3d244a94a1e4eef30283fb7a",
+    "version": "66",
+    "init_ms": 2509.43,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2509.43 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791738447982,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[66]31e0407a7cfd4b9695eadd4bea58a534",
+    "version": "66",
+    "init_ms": 2740.96,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2740.96 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791738786753,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[67]ad3725137398400fb465236f194eed99",
+    "version": "67",
+    "init_ms": 2558.66,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2558.66 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791738786918,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[67]4867b94020014164a411f99601ae416c",
+    "version": "67",
+    "init_ms": 2742.27,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2742.27 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791738864763,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[68]72ba80e72a834786a0f178184ed2318a",
+    "version": "68",
+    "init_ms": 2545.16,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2545.16 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791738864893,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[68]3e41f912570e4f498f62c0e1043c00b8",
+    "version": "68",
+    "init_ms": 2742.4,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2742.40 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791738944730,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[69]2029633b7fae4e52ae40a170848ce990",
+    "version": "69",
+    "init_ms": 2556.94,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2556.94 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791738944906,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[69]331cb1e48aa4460ab9dd1fcf0f327e71",
+    "version": "69",
+    "init_ms": 2706.74,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2706.74 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791739021063,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[70]d0a9dca4bb89427fac792cd868ed52e0",
+    "version": "70",
+    "init_ms": 2517.7,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2517.70 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791739021310,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[70]c841bd02a30b4ee192b7bf2f8cc8ef87",
+    "version": "70",
+    "init_ms": 2785.07,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2785.07 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791739101202,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[71]0fc3fae6e1f84964965feb822ecf4650",
+    "version": "71",
+    "init_ms": 2527.6,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2527.60 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791739101440,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[71]9bb2cc4e169c40f68df03a6c9c6b420d",
+    "version": "71",
+    "init_ms": 2750.31,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2750.31 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791739177762,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[72]269809cee4ac4d818d90a600c068df82",
+    "version": "72",
+    "init_ms": 2542.92,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2542.92 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791739177939,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[72]574ea93b90644030aad1cb423b5bfae5",
+    "version": "72",
+    "init_ms": 2743.72,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2743.72 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791739871982,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[73]55dc3d675bc54cf397facfd343b7aab2",
+    "version": "73",
+    "init_ms": 2619.41,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2619.41 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791739872165,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[73]f7546fd327b14d18adde4d55338eb770",
+    "version": "73",
+    "init_ms": 2774.07,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2774.07 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791739897901,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[72]29716d0c4bba4a4ca3f0e57177114f38",
+    "version": "72",
+    "init_ms": 2476.88,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2476.88 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791739897948,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[72]0c3edc7fdbd8427dbc3e351921b2e882",
+    "version": "72",
+    "init_ms": 2525.74,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2525.74 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791739898118,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[72]1fce35e219e94bc48ca1c7620fb7ed53",
+    "version": "72",
+    "init_ms": 2681.08,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2681.08 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791739898218,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[72]e872909f33a843ed8014d2903d7ca63f",
+    "version": "72",
+    "init_ms": 2747.31,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2747.31 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791739950458,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[74]7eba1f9b11574e6dbe84c3598341ce4e",
+    "version": "74",
+    "init_ms": 2481.26,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2481.26 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791739950751,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[74]2c5c74c7dc2747228fb5c6befd081ac6",
+    "version": "74",
+    "init_ms": 2757.14,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2757.14 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791740031269,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[75]f3b2ee83ac6c4a9fa9ee21771d65a0cd",
+    "version": "75",
+    "init_ms": 2554.32,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2554.32 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791740031546,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[75]58d7827ee1ea45eca4043174e8a3c4bd",
+    "version": "75",
+    "init_ms": 2792.7,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2792.70 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791740111896,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[76]6c6d43befd304d3c9c1b4d00ab6bfb15",
+    "version": "76",
+    "init_ms": 2540.38,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2540.38 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791740112012,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[76]179a2479365f4044b12f30d4e97a8881",
+    "version": "76",
+    "init_ms": 2692.03,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2692.03 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791740188547,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[77]980bde595fb540a99e7adeb3af95ee36",
+    "version": "77",
+    "init_ms": 2657.41,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2657.41 ms"
+  },
+  {
+    "variant": "python-snapstart",
+    "memory_mb": 1024,
+    "timestamp_ms": 1791740188638,
+    "stream": "2026/10/11/benchmark-python-snapstart-lambda[77]3abd6bd4ec3c4ead9f221b3f2c459a56",
+    "version": "77",
+    "init_ms": 2777.03,
+    "platform_status": "success",
+    "message": "INIT_REPORT Init Duration: 2777.03 ms"
+  }
+]

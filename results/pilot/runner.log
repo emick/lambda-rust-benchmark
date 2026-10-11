@@ -1,0 +1,26 @@
+Installed 22 packages in 123ms
+2026-10-11 14:11:28.405 | INFO     | benchmark.runner:cold_scenario:269 - python 512 MB health: 14/3 verified cold
+2026-10-11 14:12:38.845 | INFO     | benchmark.runner:cold_scenario:269 - python-snapstart 512 MB health: 17/3 verified cold
+2026-10-11 14:12:55.370 | INFO     | benchmark.runner:cold_scenario:269 - rust 512 MB health: 12/3 verified cold
+2026-10-11 14:14:06.209 | INFO     | benchmark.runner:cold_scenario:269 - python-snapstart 512 MB users: 19/3 verified cold
+2026-10-11 14:14:23.664 | INFO     | benchmark.runner:cold_scenario:269 - rust 512 MB users: 14/3 verified cold
+2026-10-11 14:14:44.665 | INFO     | benchmark.runner:cold_scenario:269 - python 512 MB users: 16/3 verified cold
+2026-10-11 14:15:02.315 | INFO     | benchmark.runner:cold_scenario:269 - rust 512 MB files: 19/3 verified cold
+2026-10-11 14:15:22.772 | INFO     | benchmark.runner:cold_scenario:269 - python 512 MB files: 21/3 verified cold
+2026-10-11 14:16:30.540 | INFO     | benchmark.runner:cold_scenario:269 - python-snapstart 512 MB files: 23/3 verified cold
+2026-10-11 14:16:41.292 | INFO     | benchmark.runner:warm_scenario:294 - python 512 MB health: 6 verified warm
+2026-10-11 14:16:51.553 | INFO     | benchmark.runner:warm_scenario:294 - python-snapstart 512 MB health: 6 verified warm
+2026-10-11 14:17:02.051 | INFO     | benchmark.runner:warm_scenario:294 - rust 512 MB health: 6 verified warm
+2026-10-11 14:17:12.348 | INFO     | benchmark.runner:warm_scenario:294 - python-snapstart 512 MB validate: 6 verified warm
+2026-10-11 14:17:22.609 | INFO     | benchmark.runner:warm_scenario:294 - rust 512 MB validate: 6 verified warm
+2026-10-11 14:17:32.793 | INFO     | benchmark.runner:warm_scenario:294 - python 512 MB validate: 6 verified warm
+2026-10-11 14:17:42.838 | INFO     | benchmark.runner:warm_scenario:294 - rust 512 MB validate_invalid: 4 verified warm
+2026-10-11 14:17:52.912 | INFO     | benchmark.runner:warm_scenario:294 - python 512 MB validate_invalid: 4 verified warm
+2026-10-11 14:18:03.112 | INFO     | benchmark.runner:warm_scenario:294 - python-snapstart 512 MB validate_invalid: 4 verified warm
+2026-10-11 14:18:13.337 | INFO     | benchmark.runner:warm_scenario:294 - python 512 MB users: 5 verified warm
+2026-10-11 14:18:23.740 | INFO     | benchmark.runner:warm_scenario:294 - python-snapstart 512 MB users: 5 verified warm
+2026-10-11 14:18:33.970 | INFO     | benchmark.runner:warm_scenario:294 - rust 512 MB users: 5 verified warm
+2026-10-11 14:18:44.433 | INFO     | benchmark.runner:warm_scenario:294 - python-snapstart 512 MB files: 6 verified warm
+2026-10-11 14:18:54.844 | INFO     | benchmark.runner:warm_scenario:294 - rust 512 MB files: 6 verified warm
+2026-10-11 14:19:05.329 | INFO     | benchmark.runner:warm_scenario:294 - python 512 MB files: 6 verified warm
+2026-10-11 14:19:09.075 | INFO     | __main__:run:40 - Raw results written to results/pilot

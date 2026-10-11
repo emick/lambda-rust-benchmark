@@ -1,0 +1,470 @@
+[
+  {
+    "name": "standard",
+    "input": {
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "age": 30,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": true
+  },
+  {
+    "name": "missing_name",
+    "input": {
+      "email": "alice@example.com",
+      "age": 30,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": false
+  },
+  {
+    "name": "missing_email",
+    "input": {
+      "name": "Alice Smith",
+      "age": 30,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": false
+  },
+  {
+    "name": "missing_age",
+    "input": {
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": false
+  },
+  {
+    "name": "unexpected",
+    "input": {
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "age": 30,
+      "tags": [
+        "engineering",
+        "backend"
+      ],
+      "extra": 1
+    },
+    "valid": false
+  },
+  {
+    "name": "boolean_age",
+    "input": {
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "age": true,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": false
+  },
+  {
+    "name": "string_age",
+    "input": {
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "age": "30",
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": false
+  },
+  {
+    "name": "float_age",
+    "input": {
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "age": 30.0,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": false
+  },
+  {
+    "name": "too_young",
+    "input": {
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "age": 17,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": false
+  },
+  {
+    "name": "too_old",
+    "input": {
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "age": 121,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": false
+  },
+  {
+    "name": "null_name",
+    "input": {
+      "name": null,
+      "email": "alice@example.com",
+      "age": 30,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": false
+  },
+  {
+    "name": "numeric_name",
+    "input": {
+      "name": 42,
+      "email": "alice@example.com",
+      "age": 30,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": false
+  },
+  {
+    "name": "short_name",
+    "input": {
+      "name": "A",
+      "email": "alice@example.com",
+      "age": 30,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": false
+  },
+  {
+    "name": "long_name",
+    "input": {
+      "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "email": "alice@example.com",
+      "age": 30,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": false
+  },
+  {
+    "name": "unicode_100",
+    "input": {
+      "name": "😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀",
+      "email": "alice@example.com",
+      "age": 30,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": true
+  },
+  {
+    "name": "unicode_short",
+    "input": {
+      "name": "😀",
+      "email": "alice@example.com",
+      "age": 30,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": false
+  },
+  {
+    "name": "combining_two",
+    "input": {
+      "name": "é",
+      "email": "alice@example.com",
+      "age": 30,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": true
+  },
+  {
+    "name": "lower_bounds",
+    "input": {
+      "name": "AB",
+      "email": "alice@example.com",
+      "age": 18,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": true
+  },
+  {
+    "name": "upper_bounds",
+    "input": {
+      "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "email": "alice@example.com",
+      "age": 120,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": true
+  },
+  {
+    "name": "invalid_email",
+    "input": {
+      "name": "Alice Smith",
+      "email": "alice@example",
+      "age": 30,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": false
+  },
+  {
+    "name": "email_dots",
+    "input": {
+      "name": "Alice Smith",
+      "email": "a..b@example.com",
+      "age": 30,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": false
+  },
+  {
+    "name": "email_space",
+    "input": {
+      "name": "Alice Smith",
+      "email": "a b@example.com",
+      "age": 30,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": false
+  },
+  {
+    "name": "email_unicode",
+    "input": {
+      "name": "Alice Smith",
+      "email": "ä@example.com",
+      "age": 30,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": false
+  },
+  {
+    "name": "email_domain_dash",
+    "input": {
+      "name": "Alice Smith",
+      "email": "a@-example.com",
+      "age": 30,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": false
+  },
+  {
+    "name": "email_newline",
+    "input": {
+      "name": "Alice Smith",
+      "email": "a@example.com\n",
+      "age": 30,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": false
+  },
+  {
+    "name": "email_plus",
+    "input": {
+      "name": "Alice Smith",
+      "email": "alice+tag@sub.example.com",
+      "age": 30,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": true
+  },
+  {
+    "name": "email_local_65",
+    "input": {
+      "name": "Alice Smith",
+      "email": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@example.com",
+      "age": 30,
+      "tags": [
+        "engineering",
+        "backend"
+      ]
+    },
+    "valid": false
+  },
+  {
+    "name": "null_tags",
+    "input": {
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "age": 30,
+      "tags": null
+    },
+    "valid": false
+  },
+  {
+    "name": "string_tags",
+    "input": {
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "age": 30,
+      "tags": "backend"
+    },
+    "valid": false
+  },
+  {
+    "name": "numeric_tag",
+    "input": {
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "age": 30,
+      "tags": [
+        1
+      ]
+    },
+    "valid": false
+  },
+  {
+    "name": "too_many_tags",
+    "input": {
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "age": 30,
+      "tags": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    },
+    "valid": false
+  },
+  {
+    "name": "ten_tags",
+    "input": {
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "age": 30,
+      "tags": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "valid": true
+  },
+  {
+    "name": "omitted_tags",
+    "input": {
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "age": 30
+    },
+    "valid": true
+  },
+  {
+    "name": "malformed",
+    "raw": "{",
+    "valid": false
+  },
+  {
+    "name": "array",
+    "raw": "[]",
+    "valid": false
+  },
+  {
+    "name": "null",
+    "raw": "null",
+    "valid": false
+  },
+  {
+    "name": "duplicate",
+    "raw": "{\"name\":\"AA\",\"name\":\"BB\",\"email\":\"a@example.com\",\"age\":30}",
+    "valid": false
+  },
+  {
+    "name": "nonfinite",
+    "raw": "{\"name\":\"AA\",\"email\":\"a@example.com\",\"age\":NaN}",
+    "valid": false
+  },
+  {
+    "name": "surrogate_name",
+    "raw": "{\"name\": \"\\ud800A\", \"email\": \"alice@example.com\", \"age\": 30, \"tags\": []}",
+    "valid": false
+  },
+  {
+    "name": "surrogate_tag",
+    "raw": "{\"name\": \"Alice Smith\", \"email\": \"alice@example.com\", \"age\": 30, \"tags\": [\"\\udfff\"]}",
+    "valid": false
+  }
+]

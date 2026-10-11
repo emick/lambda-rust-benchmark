@@ -1,0 +1,777 @@
+{
+  "region": "eu-north-1",
+  "observed_at": "2026-10-11T17:55:54.060313+00:00",
+  "variants": {
+    "python": {
+      "resources": {
+        "Variant": "python",
+        "FunctionName": "benchmark-python-lambda",
+        "TableName": "benchmark-python-users",
+        "ApiUrl": "https://akts18m4m7.execute-api.eu-north-1.amazonaws.com",
+        "BucketName": "benchmark-python-files8e6940b8-0adeie3d5zzb",
+        "LogGroup": "/aws/lambda/benchmark-python-lambda",
+        "Alias": "benchmark"
+      },
+      "function": {
+        "FunctionArn": "arn:aws:lambda:eu-north-1:044573647874:function:benchmark-python-lambda:83",
+        "Runtime": "python3.13",
+        "Handler": "app.handler",
+        "Architectures": [
+          "arm64"
+        ],
+        "MemorySize": 1024,
+        "Timeout": 15,
+        "CodeSize": 19683354,
+        "CodeSha256": "C9woEJ5jCiUHinRz/bTUjKpI428SV45X07iQg84sWrY=",
+        "Role": "arn:aws:iam::044573647874:role/Benchmark-python-ExecutionRole605A040B-w9rHaisFbpDq",
+        "Environment": {
+          "Variables": {
+            "BENCHMARK_BATCH": "fb8be840f2b24c2786f9bedd98eea04b",
+            "USERS_TABLE": "benchmark-python-users",
+            "FILES_BUCKET": "benchmark-python-files8e6940b8-0adeie3d5zzb"
+          }
+        },
+        "SnapStart": {
+          "ApplyOn": "None",
+          "OptimizationStatus": "Off"
+        },
+        "Layers": null,
+        "VpcConfig": null,
+        "EphemeralStorage": {
+          "Size": 512
+        }
+      },
+      "function_tags": {
+        "Project": "lambda-rust-benchmark",
+        "aws:cloudformation:logical-id": "Function76856677",
+        "aws:cloudformation:stack-id": "arn:aws:cloudformation:eu-north-1:044573647874:stack/Benchmark-python/09c4cb10-c57a-11f1-a2e4-06d7e6b47cff",
+        "aws:cloudformation:stack-name": "Benchmark-python"
+      },
+      "alias": {
+        "AliasArn": "arn:aws:lambda:eu-north-1:044573647874:function:benchmark-python-lambda:benchmark",
+        "Name": "benchmark",
+        "FunctionVersion": "83",
+        "RoutingConfig": null
+      },
+      "api": {
+        "id": "akts18m4m7",
+        "protocol": "HTTP",
+        "tags": {
+          "Project": "lambda-rust-benchmark",
+          "aws:cloudformation:stack-name": "Benchmark-python",
+          "aws:cloudformation:logical-id": "ApiF70053CD",
+          "aws:cloudformation:stack-id": "arn:aws:cloudformation:eu-north-1:044573647874:stack/Benchmark-python/09c4cb10-c57a-11f1-a2e4-06d7e6b47cff"
+        },
+        "routes": [
+          {
+            "ApiKeyRequired": false,
+            "AuthorizationScopes": [],
+            "AuthorizationType": "NONE",
+            "RequestModels": {},
+            "RouteId": "2zghwbb",
+            "RouteKey": "$default",
+            "Target": "integrations/y7ywe8o"
+          }
+        ],
+        "integrations": [
+          {
+            "ConnectionType": "INTERNET",
+            "IntegrationId": "y7ywe8o",
+            "IntegrationMethod": "POST",
+            "IntegrationType": "AWS_PROXY",
+            "IntegrationUri": "arn:aws:lambda:eu-north-1:044573647874:function:benchmark-python-lambda:benchmark",
+            "PayloadFormatVersion": "2.0",
+            "TimeoutInMillis": 30000
+          }
+        ]
+      },
+      "table": {
+        "arn": "arn:aws:dynamodb:eu-north-1:044573647874:table/benchmark-python-users",
+        "created_at": "2026-10-11T16:45:47.723000+03:00",
+        "key_schema": [
+          {
+            "AttributeName": "id",
+            "KeyType": "HASH"
+          }
+        ],
+        "attributes": [
+          {
+            "AttributeName": "id",
+            "AttributeType": "S"
+          }
+        ],
+        "billing": "PAY_PER_REQUEST",
+        "tags": [
+          {
+            "Key": "Project",
+            "Value": "lambda-rust-benchmark"
+          }
+        ]
+      },
+      "bucket": {
+        "name": "benchmark-python-files8e6940b8-0adeie3d5zzb",
+        "created_at": "2026-10-11T13:46:02+00:00",
+        "versioning": "Disabled",
+        "tags": [
+          {
+            "Key": "Project",
+            "Value": "lambda-rust-benchmark"
+          },
+          {
+            "Key": "aws:cloudformation:stack-name",
+            "Value": "Benchmark-python"
+          },
+          {
+            "Key": "aws:cloudformation:logical-id",
+            "Value": "Files8E6940B8"
+          },
+          {
+            "Key": "aws:cloudformation:stack-id",
+            "Value": "arn:aws:cloudformation:eu-north-1:044573647874:stack/Benchmark-python/09c4cb10-c57a-11f1-a2e4-06d7e6b47cff"
+          }
+        ]
+      },
+      "role": {
+        "name": "Benchmark-python-ExecutionRole605A040B-w9rHaisFbpDq",
+        "policies": [
+          {
+            "Version": "2012-10-17",
+            "Statement": [
+              {
+                "Action": [
+                  "logs:CreateLogStream",
+                  "logs:PutLogEvents"
+                ],
+                "Resource": "arn:aws:logs:eu-north-1:044573647874:log-group:/aws/lambda/benchmark-python-lambda:*",
+                "Effect": "Allow"
+              },
+              {
+                "Action": "dynamodb:PutItem",
+                "Resource": "arn:aws:dynamodb:eu-north-1:044573647874:table/benchmark-python-users",
+                "Effect": "Allow"
+              },
+              {
+                "Action": "s3:PutObject",
+                "Resource": "arn:aws:s3:::benchmark-python-files8e6940b8-0adeie3d5zzb/*",
+                "Effect": "Allow"
+              }
+            ]
+          }
+        ],
+        "attached": [],
+        "service_actions": [
+          "dynamodb:PutItem",
+          "s3:PutObject"
+        ],
+        "scoped": true
+      },
+      "provisioned_concurrency": [],
+      "stack_resources": [
+        {
+          "LogicalResourceId": "ApiDefaultRoute1D83B0D8",
+          "PhysicalResourceId": "2zghwbb",
+          "ResourceType": "AWS::ApiGatewayV2::Route",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "ApiDefaultRouteCatchAllA45AA75B",
+          "PhysicalResourceId": "y7ywe8o",
+          "ResourceType": "AWS::ApiGatewayV2::Integration",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "ApiDefaultRouteCatchAllPermission99EAC431",
+          "PhysicalResourceId": "Benchmark-python-ApiDefaultRouteCatchAllPermission99EAC431-mEiYDGASQbbA",
+          "ResourceType": "AWS::Lambda::Permission",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "ApiDefaultStage189A7074",
+          "PhysicalResourceId": "$default",
+          "ResourceType": "AWS::ApiGatewayV2::Stage",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "ApiF70053CD",
+          "PhysicalResourceId": "akts18m4m7",
+          "ResourceType": "AWS::ApiGatewayV2::Api",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "BenchmarkAliasF50A017C",
+          "PhysicalResourceId": "arn:aws:lambda:eu-north-1:044573647874:function:benchmark-python-lambda:benchmark",
+          "ResourceType": "AWS::Lambda::Alias",
+          "ResourceStatus": "UPDATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "CDKMetadata",
+          "PhysicalResourceId": "09c4cb10-c57a-11f1-a2e4-06d7e6b47cff",
+          "ResourceType": "AWS::CDK::Metadata",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "ExecutionRole605A040B",
+          "PhysicalResourceId": "Benchmark-python-ExecutionRole605A040B-w9rHaisFbpDq",
+          "ResourceType": "AWS::IAM::Role",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "ExecutionRoleDefaultPolicyA5B92313",
+          "PhysicalResourceId": "Bench-Execu-yOCszf4v17aO",
+          "ResourceType": "AWS::IAM::Policy",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "Files8E6940B8",
+          "PhysicalResourceId": "benchmark-python-files8e6940b8-0adeie3d5zzb",
+          "ResourceType": "AWS::S3::Bucket",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "FilesPolicyCFAB4773",
+          "PhysicalResourceId": "benchmark-python-files8e6940b8-0adeie3d5zzb",
+          "ResourceType": "AWS::S3::BucketPolicy",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "Function76856677",
+          "PhysicalResourceId": "benchmark-python-lambda",
+          "ResourceType": "AWS::Lambda::Function",
+          "ResourceStatus": "UPDATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "FunctionCurrentVersion4E2B2261f06170177f6b9e5c27cc4c24db1bf682",
+          "PhysicalResourceId": "arn:aws:lambda:eu-north-1:044573647874:function:benchmark-python-lambda:3",
+          "ResourceType": "AWS::Lambda::Version",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "Logs6819BB44",
+          "PhysicalResourceId": "/aws/lambda/benchmark-python-lambda",
+          "ResourceType": "AWS::Logs::LogGroup",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "Users0A0EEA89",
+          "PhysicalResourceId": "benchmark-python-users",
+          "ResourceType": "AWS::DynamoDB::Table",
+          "ResourceStatus": "CREATE_COMPLETE"
+        }
+      ]
+    },
+    "python-snapstart": {
+      "resources": {
+        "Variant": "python-snapstart",
+        "FunctionName": "benchmark-python-snapstart-lambda",
+        "TableName": "benchmark-python-snapstart-users",
+        "ApiUrl": "https://8h5r22q9sj.execute-api.eu-north-1.amazonaws.com",
+        "BucketName": "benchmark-python-snapstart-files8e6940b8-ivogs1n3m8gd",
+        "LogGroup": "/aws/lambda/benchmark-python-snapstart-lambda",
+        "Alias": "benchmark"
+      },
+      "function": {
+        "FunctionArn": "arn:aws:lambda:eu-north-1:044573647874:function:benchmark-python-snapstart-lambda:77",
+        "Runtime": "python3.13",
+        "Handler": "app.handler",
+        "Architectures": [
+          "arm64"
+        ],
+        "MemorySize": 1024,
+        "Timeout": 15,
+        "CodeSize": 19683354,
+        "CodeSha256": "C9woEJ5jCiUHinRz/bTUjKpI428SV45X07iQg84sWrY=",
+        "Role": "arn:aws:iam::044573647874:role/Benchmark-python-snapstart-ExecutionRole605A040B-25N7bsHTKLH9",
+        "Environment": {
+          "Variables": {
+            "BENCHMARK_BATCH": "aa7314a6ed8640b490df4b409ae38d80",
+            "USERS_TABLE": "benchmark-python-snapstart-users",
+            "FILES_BUCKET": "benchmark-python-snapstart-files8e6940b8-ivogs1n3m8gd"
+          }
+        },
+        "SnapStart": {
+          "ApplyOn": "PublishedVersions",
+          "OptimizationStatus": "On"
+        },
+        "Layers": null,
+        "VpcConfig": null,
+        "EphemeralStorage": {
+          "Size": 512
+        }
+      },
+      "function_tags": {
+        "Project": "lambda-rust-benchmark",
+        "aws:cloudformation:logical-id": "Function76856677",
+        "aws:cloudformation:stack-id": "arn:aws:cloudformation:eu-north-1:044573647874:stack/Benchmark-python-snapstart/32aac390-c57a-11f1-b87a-0affeb360719",
+        "aws:cloudformation:stack-name": "Benchmark-python-snapstart"
+      },
+      "alias": {
+        "AliasArn": "arn:aws:lambda:eu-north-1:044573647874:function:benchmark-python-snapstart-lambda:benchmark",
+        "Name": "benchmark",
+        "FunctionVersion": "77",
+        "RoutingConfig": null
+      },
+      "api": {
+        "id": "8h5r22q9sj",
+        "protocol": "HTTP",
+        "tags": {
+          "Project": "lambda-rust-benchmark",
+          "aws:cloudformation:stack-name": "Benchmark-python-snapstart",
+          "aws:cloudformation:logical-id": "ApiF70053CD",
+          "aws:cloudformation:stack-id": "arn:aws:cloudformation:eu-north-1:044573647874:stack/Benchmark-python-snapstart/32aac390-c57a-11f1-b87a-0affeb360719"
+        },
+        "routes": [
+          {
+            "ApiKeyRequired": false,
+            "AuthorizationScopes": [],
+            "AuthorizationType": "NONE",
+            "RequestModels": {},
+            "RouteId": "89t60bn",
+            "RouteKey": "$default",
+            "Target": "integrations/w3nrgad"
+          }
+        ],
+        "integrations": [
+          {
+            "ConnectionType": "INTERNET",
+            "IntegrationId": "w3nrgad",
+            "IntegrationMethod": "POST",
+            "IntegrationType": "AWS_PROXY",
+            "IntegrationUri": "arn:aws:lambda:eu-north-1:044573647874:function:benchmark-python-snapstart-lambda:benchmark",
+            "PayloadFormatVersion": "2.0",
+            "TimeoutInMillis": 30000
+          }
+        ]
+      },
+      "table": {
+        "arn": "arn:aws:dynamodb:eu-north-1:044573647874:table/benchmark-python-snapstart-users",
+        "created_at": "2026-10-11T16:46:55.894000+03:00",
+        "key_schema": [
+          {
+            "AttributeName": "id",
+            "KeyType": "HASH"
+          }
+        ],
+        "attributes": [
+          {
+            "AttributeName": "id",
+            "AttributeType": "S"
+          }
+        ],
+        "billing": "PAY_PER_REQUEST",
+        "tags": [
+          {
+            "Key": "Project",
+            "Value": "lambda-rust-benchmark"
+          }
+        ]
+      },
+      "bucket": {
+        "name": "benchmark-python-snapstart-files8e6940b8-ivogs1n3m8gd",
+        "created_at": "2026-10-11T13:47:10+00:00",
+        "versioning": "Disabled",
+        "tags": [
+          {
+            "Key": "Project",
+            "Value": "lambda-rust-benchmark"
+          },
+          {
+            "Key": "aws:cloudformation:stack-name",
+            "Value": "Benchmark-python-snapstart"
+          },
+          {
+            "Key": "aws:cloudformation:logical-id",
+            "Value": "Files8E6940B8"
+          },
+          {
+            "Key": "aws:cloudformation:stack-id",
+            "Value": "arn:aws:cloudformation:eu-north-1:044573647874:stack/Benchmark-python-snapstart/32aac390-c57a-11f1-b87a-0affeb360719"
+          }
+        ]
+      },
+      "role": {
+        "name": "Benchmark-python-snapstart-ExecutionRole605A040B-25N7bsHTKLH9",
+        "policies": [
+          {
+            "Version": "2012-10-17",
+            "Statement": [
+              {
+                "Action": [
+                  "logs:CreateLogStream",
+                  "logs:PutLogEvents"
+                ],
+                "Resource": "arn:aws:logs:eu-north-1:044573647874:log-group:/aws/lambda/benchmark-python-snapstart-lambda:*",
+                "Effect": "Allow"
+              },
+              {
+                "Action": "dynamodb:PutItem",
+                "Resource": "arn:aws:dynamodb:eu-north-1:044573647874:table/benchmark-python-snapstart-users",
+                "Effect": "Allow"
+              },
+              {
+                "Action": "s3:PutObject",
+                "Resource": "arn:aws:s3:::benchmark-python-snapstart-files8e6940b8-ivogs1n3m8gd/*",
+                "Effect": "Allow"
+              }
+            ]
+          }
+        ],
+        "attached": [],
+        "service_actions": [
+          "dynamodb:PutItem",
+          "s3:PutObject"
+        ],
+        "scoped": true
+      },
+      "provisioned_concurrency": [],
+      "stack_resources": [
+        {
+          "LogicalResourceId": "ApiDefaultRoute1D83B0D8",
+          "PhysicalResourceId": "89t60bn",
+          "ResourceType": "AWS::ApiGatewayV2::Route",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "ApiDefaultRouteCatchAllA45AA75B",
+          "PhysicalResourceId": "w3nrgad",
+          "ResourceType": "AWS::ApiGatewayV2::Integration",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "ApiDefaultRouteCatchAllPermission99EAC431",
+          "PhysicalResourceId": "Benchmark-python-snapstart-ApiDefaultRouteCatchAllPermission99EAC431-ku6JaKoxoeBh",
+          "ResourceType": "AWS::Lambda::Permission",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "ApiDefaultStage189A7074",
+          "PhysicalResourceId": "$default",
+          "ResourceType": "AWS::ApiGatewayV2::Stage",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "ApiF70053CD",
+          "PhysicalResourceId": "8h5r22q9sj",
+          "ResourceType": "AWS::ApiGatewayV2::Api",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "BenchmarkAliasF50A017C",
+          "PhysicalResourceId": "arn:aws:lambda:eu-north-1:044573647874:function:benchmark-python-snapstart-lambda:benchmark",
+          "ResourceType": "AWS::Lambda::Alias",
+          "ResourceStatus": "UPDATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "CDKMetadata",
+          "PhysicalResourceId": "32aac390-c57a-11f1-b87a-0affeb360719",
+          "ResourceType": "AWS::CDK::Metadata",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "ExecutionRole605A040B",
+          "PhysicalResourceId": "Benchmark-python-snapstart-ExecutionRole605A040B-25N7bsHTKLH9",
+          "ResourceType": "AWS::IAM::Role",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "ExecutionRoleDefaultPolicyA5B92313",
+          "PhysicalResourceId": "Bench-Execu-3k5iTs9OWdlx",
+          "ResourceType": "AWS::IAM::Policy",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "Files8E6940B8",
+          "PhysicalResourceId": "benchmark-python-snapstart-files8e6940b8-ivogs1n3m8gd",
+          "ResourceType": "AWS::S3::Bucket",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "FilesPolicyCFAB4773",
+          "PhysicalResourceId": "benchmark-python-snapstart-files8e6940b8-ivogs1n3m8gd",
+          "ResourceType": "AWS::S3::BucketPolicy",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "Function76856677",
+          "PhysicalResourceId": "benchmark-python-snapstart-lambda",
+          "ResourceType": "AWS::Lambda::Function",
+          "ResourceStatus": "UPDATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "FunctionCurrentVersion4E2B2261b1ff7c187a0460cfc3d15e387e6f93e9",
+          "PhysicalResourceId": "arn:aws:lambda:eu-north-1:044573647874:function:benchmark-python-snapstart-lambda:3",
+          "ResourceType": "AWS::Lambda::Version",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "Logs6819BB44",
+          "PhysicalResourceId": "/aws/lambda/benchmark-python-snapstart-lambda",
+          "ResourceType": "AWS::Logs::LogGroup",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "Users0A0EEA89",
+          "PhysicalResourceId": "benchmark-python-snapstart-users",
+          "ResourceType": "AWS::DynamoDB::Table",
+          "ResourceStatus": "CREATE_COMPLETE"
+        }
+      ]
+    },
+    "rust": {
+      "resources": {
+        "Variant": "rust",
+        "FunctionName": "benchmark-rust-lambda",
+        "TableName": "benchmark-rust-users",
+        "ApiUrl": "https://rgpgr7dmt1.execute-api.eu-north-1.amazonaws.com",
+        "BucketName": "benchmark-rust-files8e6940b8-wi3a23hktunx",
+        "LogGroup": "/aws/lambda/benchmark-rust-lambda",
+        "Alias": "benchmark"
+      },
+      "function": {
+        "FunctionArn": "arn:aws:lambda:eu-north-1:044573647874:function:benchmark-rust-lambda:91",
+        "Runtime": "provided.al2023",
+        "Handler": "bootstrap",
+        "Architectures": [
+          "arm64"
+        ],
+        "MemorySize": 1024,
+        "Timeout": 15,
+        "CodeSize": 5833899,
+        "CodeSha256": "44rOCVooS4tJA82ya/5XrR0FyLlFbPXyHL1Fjduw/6E=",
+        "Role": "arn:aws:iam::044573647874:role/Benchmark-rust-ExecutionRole605A040B-kAB47BjY1lMb",
+        "Environment": {
+          "Variables": {
+            "BENCHMARK_BATCH": "3fa269a18c3047d0aa4ecb197905efd3",
+            "USERS_TABLE": "benchmark-rust-users",
+            "FILES_BUCKET": "benchmark-rust-files8e6940b8-wi3a23hktunx"
+          }
+        },
+        "SnapStart": {
+          "ApplyOn": "None",
+          "OptimizationStatus": "Off"
+        },
+        "Layers": null,
+        "VpcConfig": null,
+        "EphemeralStorage": {
+          "Size": 512
+        }
+      },
+      "function_tags": {
+        "Project": "lambda-rust-benchmark",
+        "aws:cloudformation:logical-id": "Function76856677",
+        "aws:cloudformation:stack-id": "arn:aws:cloudformation:eu-north-1:044573647874:stack/Benchmark-rust/7a1d5260-c57a-11f1-8a26-0effebce3583",
+        "aws:cloudformation:stack-name": "Benchmark-rust"
+      },
+      "alias": {
+        "AliasArn": "arn:aws:lambda:eu-north-1:044573647874:function:benchmark-rust-lambda:benchmark",
+        "Name": "benchmark",
+        "FunctionVersion": "91",
+        "RoutingConfig": null
+      },
+      "api": {
+        "id": "rgpgr7dmt1",
+        "protocol": "HTTP",
+        "tags": {
+          "Project": "lambda-rust-benchmark",
+          "aws:cloudformation:stack-name": "Benchmark-rust",
+          "aws:cloudformation:logical-id": "ApiF70053CD",
+          "aws:cloudformation:stack-id": "arn:aws:cloudformation:eu-north-1:044573647874:stack/Benchmark-rust/7a1d5260-c57a-11f1-8a26-0effebce3583"
+        },
+        "routes": [
+          {
+            "ApiKeyRequired": false,
+            "AuthorizationScopes": [],
+            "AuthorizationType": "NONE",
+            "RequestModels": {},
+            "RouteId": "h5gfqr5",
+            "RouteKey": "$default",
+            "Target": "integrations/m63qxk9"
+          }
+        ],
+        "integrations": [
+          {
+            "ConnectionType": "INTERNET",
+            "IntegrationId": "m63qxk9",
+            "IntegrationMethod": "POST",
+            "IntegrationType": "AWS_PROXY",
+            "IntegrationUri": "arn:aws:lambda:eu-north-1:044573647874:function:benchmark-rust-lambda:benchmark",
+            "PayloadFormatVersion": "2.0",
+            "TimeoutInMillis": 30000
+          }
+        ]
+      },
+      "table": {
+        "arn": "arn:aws:dynamodb:eu-north-1:044573647874:table/benchmark-rust-users",
+        "created_at": "2026-10-11T16:48:56.073000+03:00",
+        "key_schema": [
+          {
+            "AttributeName": "id",
+            "KeyType": "HASH"
+          }
+        ],
+        "attributes": [
+          {
+            "AttributeName": "id",
+            "AttributeType": "S"
+          }
+        ],
+        "billing": "PAY_PER_REQUEST",
+        "tags": [
+          {
+            "Key": "Project",
+            "Value": "lambda-rust-benchmark"
+          }
+        ]
+      },
+      "bucket": {
+        "name": "benchmark-rust-files8e6940b8-wi3a23hktunx",
+        "created_at": "2026-10-11T13:49:09+00:00",
+        "versioning": "Disabled",
+        "tags": [
+          {
+            "Key": "Project",
+            "Value": "lambda-rust-benchmark"
+          },
+          {
+            "Key": "aws:cloudformation:stack-name",
+            "Value": "Benchmark-rust"
+          },
+          {
+            "Key": "aws:cloudformation:logical-id",
+            "Value": "Files8E6940B8"
+          },
+          {
+            "Key": "aws:cloudformation:stack-id",
+            "Value": "arn:aws:cloudformation:eu-north-1:044573647874:stack/Benchmark-rust/7a1d5260-c57a-11f1-8a26-0effebce3583"
+          }
+        ]
+      },
+      "role": {
+        "name": "Benchmark-rust-ExecutionRole605A040B-kAB47BjY1lMb",
+        "policies": [
+          {
+            "Version": "2012-10-17",
+            "Statement": [
+              {
+                "Action": [
+                  "logs:CreateLogStream",
+                  "logs:PutLogEvents"
+                ],
+                "Resource": "arn:aws:logs:eu-north-1:044573647874:log-group:/aws/lambda/benchmark-rust-lambda:*",
+                "Effect": "Allow"
+              },
+              {
+                "Action": "dynamodb:PutItem",
+                "Resource": "arn:aws:dynamodb:eu-north-1:044573647874:table/benchmark-rust-users",
+                "Effect": "Allow"
+              },
+              {
+                "Action": "s3:PutObject",
+                "Resource": "arn:aws:s3:::benchmark-rust-files8e6940b8-wi3a23hktunx/*",
+                "Effect": "Allow"
+              }
+            ]
+          }
+        ],
+        "attached": [],
+        "service_actions": [
+          "dynamodb:PutItem",
+          "s3:PutObject"
+        ],
+        "scoped": true
+      },
+      "provisioned_concurrency": [],
+      "stack_resources": [
+        {
+          "LogicalResourceId": "ApiDefaultRoute1D83B0D8",
+          "PhysicalResourceId": "h5gfqr5",
+          "ResourceType": "AWS::ApiGatewayV2::Route",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "ApiDefaultRouteCatchAllA45AA75B",
+          "PhysicalResourceId": "m63qxk9",
+          "ResourceType": "AWS::ApiGatewayV2::Integration",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "ApiDefaultRouteCatchAllPermission99EAC431",
+          "PhysicalResourceId": "Benchmark-rust-ApiDefaultRouteCatchAllPermission99EAC431-3aE1M1kebbLz",
+          "ResourceType": "AWS::Lambda::Permission",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "ApiDefaultStage189A7074",
+          "PhysicalResourceId": "$default",
+          "ResourceType": "AWS::ApiGatewayV2::Stage",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "ApiF70053CD",
+          "PhysicalResourceId": "rgpgr7dmt1",
+          "ResourceType": "AWS::ApiGatewayV2::Api",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "BenchmarkAliasF50A017C",
+          "PhysicalResourceId": "arn:aws:lambda:eu-north-1:044573647874:function:benchmark-rust-lambda:benchmark",
+          "ResourceType": "AWS::Lambda::Alias",
+          "ResourceStatus": "UPDATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "CDKMetadata",
+          "PhysicalResourceId": "7a1d5260-c57a-11f1-8a26-0effebce3583",
+          "ResourceType": "AWS::CDK::Metadata",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "ExecutionRole605A040B",
+          "PhysicalResourceId": "Benchmark-rust-ExecutionRole605A040B-kAB47BjY1lMb",
+          "ResourceType": "AWS::IAM::Role",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "ExecutionRoleDefaultPolicyA5B92313",
+          "PhysicalResourceId": "Bench-Execu-cuMZxe5SwRVK",
+          "ResourceType": "AWS::IAM::Policy",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "Files8E6940B8",
+          "PhysicalResourceId": "benchmark-rust-files8e6940b8-wi3a23hktunx",
+          "ResourceType": "AWS::S3::Bucket",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "FilesPolicyCFAB4773",
+          "PhysicalResourceId": "benchmark-rust-files8e6940b8-wi3a23hktunx",
+          "ResourceType": "AWS::S3::BucketPolicy",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "Function76856677",
+          "PhysicalResourceId": "benchmark-rust-lambda",
+          "ResourceType": "AWS::Lambda::Function",
+          "ResourceStatus": "UPDATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "FunctionCurrentVersion4E2B2261720dd87b919e9efb6871f09339ee1e91",
+          "PhysicalResourceId": "arn:aws:lambda:eu-north-1:044573647874:function:benchmark-rust-lambda:2",
+          "ResourceType": "AWS::Lambda::Version",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "Logs6819BB44",
+          "PhysicalResourceId": "/aws/lambda/benchmark-rust-lambda",
+          "ResourceType": "AWS::Logs::LogGroup",
+          "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+          "LogicalResourceId": "Users0A0EEA89",
+          "PhysicalResourceId": "benchmark-rust-users",
+          "ResourceType": "AWS::DynamoDB::Table",
+          "ResourceStatus": "CREATE_COMPLETE"
+        }
+      ]
+    }
+  }
+}
